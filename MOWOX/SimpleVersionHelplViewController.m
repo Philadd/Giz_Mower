@@ -77,7 +77,7 @@
         _oneModelImage.layer.borderWidth = 1.0;
         _oneModelImage.layer.borderColor = [UIColor whiteColor].CGColor;
         _oneModelImage.layer.cornerRadius = 10.f/HScale;
-        
+        /*
         //2.初始化富文本对象
          NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:upText.text];
         //2.1修改富文本中的不同文字的样式
@@ -94,7 +94,7 @@
         //[attributedString appendAttributedString:string];   //添加到尾部
 
         //5.用label的attributedText属性来使用富文本
-        upText.attributedText = attributedString;
+        upText.attributedText = attributedString;*/
         
     }
     return _oneModelImage;
