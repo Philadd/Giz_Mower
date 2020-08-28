@@ -82,7 +82,7 @@
         _Label_1.font = [UIFont systemFontOfSize:17.f];
         _Label_1.backgroundColor = [UIColor clearColor];
         _Label_1.textColor = [UIColor whiteColor];
-        _Label_1.text = LocalString(@"Input the correct name and password of your WIFI network\nThen press Next");
+        _Label_1.text = LocalString(@"Input the correct name and password of your WIFI network\nThen press “Next”");
         //自动折行设置
         [_Label_1 setLineBreakMode:NSLineBreakByWordWrapping];
         _Label_1.numberOfLines = 0;
