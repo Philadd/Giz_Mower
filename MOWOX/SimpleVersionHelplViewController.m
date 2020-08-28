@@ -66,7 +66,7 @@
         upText.backgroundColor = [UIColor clearColor];
         upText.textColor = [UIColor whiteColor];
         upText.textAlignment = NSTextAlignmentLeft;
-        upText.text = LocalString(@"1.Turn on your Robot\n2.Unlock the keyboard;\n3.Press the button for 5seconds,till the LED light flashing(fast)\n4.Press the button");
+        upText.text = LocalString(@"1.Turn on your Robot\n2.Unlock the keyboard;\n3.Press the button “Wi-Fi” for 5seconds,till the LED light flashing(fast)\n4.Press the “CONNECT” button");
         [_oneModelImage addSubview:upText];
         [upText mas_makeConstraints:^(MASConstraintMaker *make) {
             make.size.mas_equalTo(CGSizeMake(yAutoFit(200), yAutoFit(100)));
@@ -131,7 +131,7 @@
         downText.backgroundColor = [UIColor clearColor];
         downText.textColor = [UIColor whiteColor];
         downText.textAlignment = NSTextAlignmentLeft;
-        downText.text = LocalString(@"1.Turn on your Robot\n2.Unlock the keyboard;\n3.Press the button for 5seconds,till the LED light flashing(fast)\n4.Press the button");
+        downText.text = LocalString(@"1.Turn on your Robot\n2.Unlock the keyboard;\n3.Press the button “Wi-Fi”+“OK” for 5seconds,till the LED light flashing(fast)\n4.Press the “CONNECT” button");
     
         [_twoModelImage addSubview:downText];
         [downText mas_makeConstraints:^(MASConstraintMaker *make) {

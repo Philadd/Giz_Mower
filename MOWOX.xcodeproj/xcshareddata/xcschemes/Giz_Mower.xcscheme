@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3E6325211FA6BC5F00F14462"
-               BuildableName = "GizMower.app"
+               BuildableName = "Mower Pro.app"
                BlueprintName = "Giz_Mower"
                ReferencedContainer = "container:MOWOX.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3E6325211FA6BC5F00F14462"
-            BuildableName = "GizMower.app"
+            BuildableName = "Mower Pro.app"
             BlueprintName = "Giz_Mower"
             ReferencedContainer = "container:MOWOX.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3E6325211FA6BC5F00F14462"
-            BuildableName = "GizMower.app"
+            BuildableName = "Mower Pro.app"
             BlueprintName = "Giz_Mower"
             ReferencedContainer = "container:MOWOX.xcodeproj">
          </BuildableReference>
