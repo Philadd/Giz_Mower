@@ -45,43 +45,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    if ([BluetoothDataManage shareInstance].version1 == 4) {
-        dataName = @"DYM221501M040_APPlication";
-        dataMotor = @"DYM221501_BladeMotorDriverLoopInc";
-        dataMotorRight = @"DYM221501_WalkMotorDriverLoopInc";
-        dataMotorLeft = @"DYM221501_WalkMotorDriverLoopInc";
-    }else if ([BluetoothDataManage shareInstance].version1 == 2){
-        
-        if ([defaults integerForKey:@"deviceType"]) {
-            [BluetoothDataManage shareInstance].deviceType = (int)[defaults integerForKey:@"deviceType"];
-            switch ([BluetoothDataManage shareInstance].deviceType) {
-                case 0:
-                    dataName = @"DY00271";
-                    break;
-                case 1:
-                    if ([BluetoothDataManage shareInstance].sectionvalve ==0) {
-                        dataName = @"DY01271";
-                    }else{
-                        dataName = @"DY11271";
-                    }
-                    break;
-                case 2:
-                    if ([BluetoothDataManage shareInstance].sectionvalve ==0) {
-                        dataName = @"DY02271";
-                    }else{
-                        dataName = @"DY12271";
-                    }
-                    break;
-                default:
-                    break;
-            }
-            
-        }
-        
-    }
+  
     [[self rdv_tabBarController] setTabBarHidden:YES animated:YES];
-    
     
     //解决navigationitem标题右偏移
     NSArray *viewControllerArray = [self.navigationController viewControllers];
@@ -99,10 +64,10 @@
     self.bluetoothDataManage = [BluetoothDataManage shareInstance];
     
     //获取bin文件的总包数并记录
-    dataName = @"DYM221501M040_APPlication";
-    dataMotor = @"DYM221501_BladeMotorDriverLoopInc";
-    dataMotorRight = @"DYM221501_WalkMotorDriverLoopInc";
-    dataMotorLeft = @"DYM221501_WalkMotorDriverLoopInc";
+    dataName = @"DM00401";
+    dataMotor = @"DY0M008";
+    dataMotorLeft = @"DY0L008";
+    dataMotorRight = @"DY0R008";
     
     NSString *path = [[NSBundle mainBundle] pathForResource:dataName ofType:@"BIN"];
     NSData *data = [NSData dataWithContentsOfFile:path];

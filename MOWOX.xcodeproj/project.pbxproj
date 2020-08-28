@@ -72,6 +72,11 @@
 		3644AFA524F7624B0063D913 /* OneLCDModelHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3644AFA424F7624B0063D913 /* OneLCDModelHelpViewController.m */; };
 		3644AFA824F762690063D913 /* TwoLCDModelHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3644AFA724F762690063D913 /* TwoLCDModelHelpViewController.m */; };
 		36605E552253855500849403 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36605E542253855500849403 /* Images.xcassets */; };
+		3664F7B924F8E65B0098B249 /* DY00273.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 3664F7B424F8E65B0098B249 /* DY00273.BIN */; };
+		3664F7BA24F8E65B0098B249 /* DY0L008.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 3664F7B524F8E65B0098B249 /* DY0L008.BIN */; };
+		3664F7BB24F8E65B0098B249 /* DM00401.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 3664F7B624F8E65B0098B249 /* DM00401.BIN */; };
+		3664F7BC24F8E65B0098B249 /* DY0M008.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 3664F7B724F8E65B0098B249 /* DY0M008.BIN */; };
+		3664F7BD24F8E65B0098B249 /* DY0R008.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 3664F7B824F8E65B0098B249 /* DY0R008.BIN */; };
 		3669CF3D21C9EEE400F54D53 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3669CF3C21C9EEE400F54D53 /* RegisterViewController.m */; };
 		3669CF4121C9EF1D00F54D53 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3669CF4021C9EF1D00F54D53 /* WelcomeViewController.m */; };
 		3669CF4621C9EF2E00F54D53 /* AddDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3669CF4221C9EF2E00F54D53 /* AddDeviceViewController.m */; };
@@ -87,9 +92,6 @@
 		3669CF6421C9F0B800F54D53 /* GizWifiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3669CF6321C9F0B800F54D53 /* GizWifiSDK.framework */; };
 		3669CF6721C9F40C00F54D53 /* libEasyLink.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3669CF5521C9F06800F54D53 /* libEasyLink.a */; };
 		3669CF6C21C9F67500F54D53 /* libLTLink.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3669CF5921C9F06800F54D53 /* libLTLink.a */; };
-		366A928E24F36C64001996B5 /* DYM221501_BladeMotorDriverLoopInc.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 366A928B24F36C64001996B5 /* DYM221501_BladeMotorDriverLoopInc.BIN */; };
-		366A928F24F36C64001996B5 /* DYM221501M040_APPlication.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 366A928C24F36C64001996B5 /* DYM221501M040_APPlication.BIN */; };
-		366A929024F36C64001996B5 /* DYM221501_WalkMotorDriverLoopInc.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 366A928D24F36C64001996B5 /* DYM221501_WalkMotorDriverLoopInc.BIN */; };
 		3692D63C21CB7FB300B1CF54 /* ChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3692D63B21CB7FB300B1CF54 /* ChangeViewController.m */; };
 		36A197EB21CCC8870008901A /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EF13DC521AD6D4000A575AF /* ExternalAccessory.framework */; };
 		36BD41D423CC670900C9C451 /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BD41D223CC670900C9C451 /* SettingViewController.m */; };
@@ -387,6 +389,11 @@
 		3644AFA624F762690063D913 /* TwoLCDModelHelpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoLCDModelHelpViewController.h; sourceTree = "<group>"; };
 		3644AFA724F762690063D913 /* TwoLCDModelHelpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoLCDModelHelpViewController.m; sourceTree = "<group>"; };
 		36605E542253855500849403 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3664F7B424F8E65B0098B249 /* DY00273.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY00273.BIN; sourceTree = "<group>"; };
+		3664F7B524F8E65B0098B249 /* DY0L008.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY0L008.BIN; sourceTree = "<group>"; };
+		3664F7B624F8E65B0098B249 /* DM00401.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DM00401.BIN; sourceTree = "<group>"; };
+		3664F7B724F8E65B0098B249 /* DY0M008.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY0M008.BIN; sourceTree = "<group>"; };
+		3664F7B824F8E65B0098B249 /* DY0R008.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY0R008.BIN; sourceTree = "<group>"; };
 		3669CF3B21C9EEE400F54D53 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		3669CF3C21C9EEE400F54D53 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		3669CF3F21C9EF1D00F54D53 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
@@ -410,9 +417,6 @@
 		3669CF6521C9F34F00F54D53 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
 		3669CF6821C9F5B600F54D53 /* libAFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libAFNetworking.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		3669CF6A21C9F5D400F54D53 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		366A928B24F36C64001996B5 /* DYM221501_BladeMotorDriverLoopInc.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DYM221501_BladeMotorDriverLoopInc.BIN; sourceTree = "<group>"; };
-		366A928C24F36C64001996B5 /* DYM221501M040_APPlication.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DYM221501M040_APPlication.BIN; sourceTree = "<group>"; };
-		366A928D24F36C64001996B5 /* DYM221501_WalkMotorDriverLoopInc.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DYM221501_WalkMotorDriverLoopInc.BIN; sourceTree = "<group>"; };
 		3692D63A21CB7FB300B1CF54 /* ChangeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeViewController.h; sourceTree = "<group>"; };
 		3692D63B21CB7FB300B1CF54 /* ChangeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeViewController.m; sourceTree = "<group>"; };
 		36BD41D223CC670900C9C451 /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
@@ -909,9 +913,11 @@
 		3E0F567E1FF23F9400A4D339 /* bin */ = {
 			isa = PBXGroup;
 			children = (
-				366A928B24F36C64001996B5 /* DYM221501_BladeMotorDriverLoopInc.BIN */,
-				366A928D24F36C64001996B5 /* DYM221501_WalkMotorDriverLoopInc.BIN */,
-				366A928C24F36C64001996B5 /* DYM221501M040_APPlication.BIN */,
+				3664F7B624F8E65B0098B249 /* DM00401.BIN */,
+				3664F7B524F8E65B0098B249 /* DY0L008.BIN */,
+				3664F7B724F8E65B0098B249 /* DY0M008.BIN */,
+				3664F7B824F8E65B0098B249 /* DY0R008.BIN */,
+				3664F7B424F8E65B0098B249 /* DY00273.BIN */,
 				36C6BEA124D4109C00E5B7F6 /* DM10340.BIN */,
 				36C6BEA524D4109C00E5B7F6 /* DM11340.BIN */,
 				36C6BEA024D4109B00E5B7F6 /* DY01273.BIN */,
@@ -1619,6 +1625,8 @@
 				36F0FCF82456C599006B1ABA /* ipad29pt@1x.png in Resources */,
 				3E11A3881FD90AAD000CAA08 /* 40@2x.png in Resources */,
 				3E2F25351FB949C200E79C23 /* findBluetooth@2x.png in Resources */,
+				3664F7BB24F8E65B0098B249 /* DM00401.BIN in Resources */,
+				3664F7BA24F8E65B0098B249 /* DY0L008.BIN in Resources */,
 				BBB611242019B111007FA3D4 /* 1024x1024@1x.png in Resources */,
 				36F0FCF62456C599006B1ABA /* iphone60pt@2x.png in Resources */,
 				BB513EFB2140DBB6000D2A5E /* img_nav_more@1x.png in Resources */,
@@ -1692,9 +1700,9 @@
 				36F0FCFA2456C599006B1ABA /* 1024x1024.png in Resources */,
 				3644AF2624F652260063D913 /* img_addDevice_NextBtn.png in Resources */,
 				36FE81C421DE0A7200BD29F4 /* rememberpassword@2x.png in Resources */,
+				3664F7BC24F8E65B0098B249 /* DY0M008.BIN in Resources */,
 				3644AFA024F75AFB0063D913 /* 10.png in Resources */,
 				3644AF5C24F658980063D913 /* A6@2x.png in Resources */,
-				366A928F24F36C64001996B5 /* DYM221501M040_APPlication.BIN in Resources */,
 				3E11A3851FD90AAD000CAA08 /* 120@3x.png in Resources */,
 				3E1480811FD00C0700FA8A2D /* A3@2x.png in Resources */,
 				3644AF4D24F658970063D913 /* img_arrow.png in Resources */,
@@ -1727,7 +1735,6 @@
 				3644AF5724F658980063D913 /* A2@3x.png in Resources */,
 				36F0FD052456C599006B1ABA /* 167X167.png in Resources */,
 				3E2F25301FB946EF00E79C23 /* Generalsetting@2x.png in Resources */,
-				366A928E24F36C64001996B5 /* DYM221501_BladeMotorDriverLoopInc.BIN in Resources */,
 				3644AFA224F75B130063D913 /* icon_check.png in Resources */,
 				3E14806C1FCFFA8C00FA8A2D /* 电量2-2@1x.png in Resources */,
 				3E22E2A61FA9A7B8000BC792 /* zx_code_line@2x.png in Resources */,
@@ -1749,6 +1756,7 @@
 				36C6BEAB24D4109C00E5B7F6 /* DY14273.BIN in Resources */,
 				BB513EFD2140DBB6000D2A5E /* img_nav_more@2x.png in Resources */,
 				BB0A37AF2015944D00E5FD94 /* A2_50@2x.png in Resources */,
+				3664F7BD24F8E65B0098B249 /* DY0R008.BIN in Resources */,
 				BB479EFD208D6F9200B19D6A /* 1024*1024@1x.png in Resources */,
 				BBB611282019B111007FA3D4 /* 58x58@2x.png in Resources */,
 				3644AF5B24F658980063D913 /* 返回@2x.png in Resources */,
@@ -1766,6 +1774,7 @@
 				3644AF4F24F658970063D913 /* img_model2_btn.png in Resources */,
 				BB479EF6208D6F9200B19D6A /* 58*58@2x.png in Resources */,
 				3644AF5624F658970063D913 /* 14.png in Resources */,
+				3664F7B924F8E65B0098B249 /* DY00273.BIN in Resources */,
 				36F0FD032456C599006B1ABA /* iphone20pt@2x.png in Resources */,
 				3E14805F1FCFEF1400FA8A2D /* A1@3x.png in Resources */,
 				3644AF5224F658970063D913 /* img_model2_help.png in Resources */,
@@ -1793,7 +1802,6 @@
 				3644AF7424F67F930063D913 /* 19.png in Resources */,
 				3E43ACEA1FAACA5200924616 /* background1@2x.png in Resources */,
 				3644AF5424F658970063D913 /* img_connect_Btn.png in Resources */,
-				366A929024F36C64001996B5 /* DYM221501_WalkMotorDriverLoopInc.BIN in Resources */,
 				BBB6112C2019B1F3007FA3D4 /* 120x120@3x.png in Resources */,
 				36F0FCF92456C599006B1ABA /* iphone29pt@3x.png in Resources */,
 				3EFEF5071FADA83E00FA7850 /* 蓝牙断开@1x.png in Resources */,
