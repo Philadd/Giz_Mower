@@ -9,7 +9,6 @@
 #import "WelcomeViewController.h"
 #import "LoginViewController.h"
 #import "AddDeviceViewController.h"
-#import "APConnectViewController.h"
 #import "LandroidListCell.h"
 #import "RDVViewController.h"
 #import "LMPopInputPasswordView.h"

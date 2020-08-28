@@ -75,8 +75,7 @@
 		3669CF3D21C9EEE400F54D53 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3669CF3C21C9EEE400F54D53 /* RegisterViewController.m */; };
 		3669CF4121C9EF1D00F54D53 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3669CF4021C9EF1D00F54D53 /* WelcomeViewController.m */; };
 		3669CF4621C9EF2E00F54D53 /* AddDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3669CF4221C9EF2E00F54D53 /* AddDeviceViewController.m */; };
-		3669CF4A21C9EF4B00F54D53 /* APConnectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3669CF4821C9EF4B00F54D53 /* APConnectViewController.m */; };
-		3669CF4D21C9EF6100F54D53 /* FinishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3669CF4B21C9EF6100F54D53 /* FinishViewController.m */; };
+		3669CF4D21C9EF6100F54D53 /* APFinishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3669CF4B21C9EF6100F54D53 /* APFinishViewController.m */; };
 		3669CF5021C9EFED00F54D53 /* ForgetpasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3669CF4F21C9EFED00F54D53 /* ForgetpasswordViewController.m */; };
 		3669CF5221C9F05000F54D53 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3669CF5121C9F05000F54D53 /* SystemConfiguration.framework */; };
 		3669CF5B21C9F06800F54D53 /* libBLEasyConfig.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3669CF5321C9F06800F54D53 /* libBLEasyConfig.a */; };
@@ -394,10 +393,8 @@
 		3669CF4021C9EF1D00F54D53 /* WelcomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WelcomeViewController.m; sourceTree = "<group>"; };
 		3669CF4221C9EF2E00F54D53 /* AddDeviceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDeviceViewController.m; sourceTree = "<group>"; };
 		3669CF4421C9EF2E00F54D53 /* AddDeviceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDeviceViewController.h; sourceTree = "<group>"; };
-		3669CF4821C9EF4B00F54D53 /* APConnectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APConnectViewController.m; sourceTree = "<group>"; };
-		3669CF4921C9EF4B00F54D53 /* APConnectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APConnectViewController.h; sourceTree = "<group>"; };
-		3669CF4B21C9EF6100F54D53 /* FinishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinishViewController.m; sourceTree = "<group>"; };
-		3669CF4C21C9EF6100F54D53 /* FinishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinishViewController.h; sourceTree = "<group>"; };
+		3669CF4B21C9EF6100F54D53 /* APFinishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APFinishViewController.m; sourceTree = "<group>"; };
+		3669CF4C21C9EF6100F54D53 /* APFinishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APFinishViewController.h; sourceTree = "<group>"; };
 		3669CF4E21C9EFED00F54D53 /* ForgetpasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ForgetpasswordViewController.h; sourceTree = "<group>"; };
 		3669CF4F21C9EFED00F54D53 /* ForgetpasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ForgetpasswordViewController.m; sourceTree = "<group>"; };
 		3669CF5121C9F05000F54D53 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -599,7 +596,7 @@
 		3E5D74F51FCD583A007F8E71 /* connectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = connectButton.m; sourceTree = "<group>"; };
 		3E5D74F71FCD5E25007F8E71 /* UIButton+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Common.h"; sourceTree = "<group>"; };
 		3E5D74F81FCD5E25007F8E71 /* UIButton+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Common.m"; sourceTree = "<group>"; };
-		3E6325221FA6BC5F00F14462 /* GizMower.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GizMower.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E6325221FA6BC5F00F14462 /* Mower Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mower Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E6325261FA6BC5F00F14462 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E6325281FA6BC5F00F14462 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E6325291FA6BC5F00F14462 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -877,10 +874,8 @@
 				3644AFA724F762690063D913 /* TwoLCDModelHelpViewController.m */,
 				3644AF9C24F752AE0063D913 /* AirLinkViewController.h */,
 				3644AF9D24F752AE0063D913 /* AirLinkViewController.m */,
-				3669CF4921C9EF4B00F54D53 /* APConnectViewController.h */,
-				3669CF4821C9EF4B00F54D53 /* APConnectViewController.m */,
-				3669CF4C21C9EF6100F54D53 /* FinishViewController.h */,
-				3669CF4B21C9EF6100F54D53 /* FinishViewController.m */,
+				3669CF4C21C9EF6100F54D53 /* APFinishViewController.h */,
+				3669CF4B21C9EF6100F54D53 /* APFinishViewController.m */,
 			);
 			name = Welcome;
 			sourceTree = "<group>";
@@ -1137,7 +1132,7 @@
 		3E6325231FA6BC5F00F14462 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E6325221FA6BC5F00F14462 /* GizMower.app */,
+				3E6325221FA6BC5F00F14462 /* Mower Pro.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1528,7 +1523,7 @@
 			);
 			name = Giz_Mower;
 			productName = MOWOX;
-			productReference = 3E6325221FA6BC5F00F14462 /* GizMower.app */;
+			productReference = 3E6325221FA6BC5F00F14462 /* Mower Pro.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -1882,7 +1877,6 @@
 				3692D63C21CB7FB300B1CF54 /* ChangeViewController.m in Sources */,
 				3E5815C31FAFFF2300E93520 /* GeneralsettingTimeViewController.m in Sources */,
 				BB8D94AA213FE8100079EE63 /* NSString+Common.m in Sources */,
-				3669CF4A21C9EF4B00F54D53 /* APConnectViewController.m in Sources */,
 				3ECE14281FCE919A008DBB7C /* MowerControlViewController.m in Sources */,
 				3E5D74F21FCD580C007F8E71 /* batteryButton.m in Sources */,
 				BB0F914F200C7EFB0060D287 /* WTReParser.m in Sources */,
@@ -1924,7 +1918,7 @@
 				BB8D94B8213FE8970079EE63 /* PasswordTableViewCell.m in Sources */,
 				BB0DA4482012E99100ECD8CF /* UIColor+ColorChange.m in Sources */,
 				BB8D94B2213FE8970079EE63 /* SSIDTableViewCell.m in Sources */,
-				3669CF4D21C9EF6100F54D53 /* FinishViewController.m in Sources */,
+				3669CF4D21C9EF6100F54D53 /* APFinishViewController.m in Sources */,
 				36E9696324EA375500190201 /* OldFirmwareViewController.m in Sources */,
 				3644AF8F24F73DA40063D913 /* TwoSimpleModelViewController.m in Sources */,
 				3E6325271FA6BC5F00F14462 /* main.m in Sources */,
@@ -2151,7 +2145,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = 5FAMV3D32N;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2183,7 +2177,7 @@
 					"\"$PODS_CONFIGURATION_BUILD_DIR/SVProgressHUD\"",
 					"$(PROJECT_DIR)/StaticLibrary",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.13;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-all_load",
@@ -2200,8 +2194,8 @@
 					"-framework",
 					"\"UIKit\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.thingcom.GizMower;
-				PRODUCT_NAME = GizMower;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thingcom.MOWOXBLEWIFI;
+				PRODUCT_NAME = "Mower Pro";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -2218,7 +2212,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = 5FAMV3D32N;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2250,7 +2244,7 @@
 					"\"$PODS_CONFIGURATION_BUILD_DIR/SVProgressHUD\"",
 					"$(PROJECT_DIR)/StaticLibrary",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.13;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-all_load",
@@ -2267,8 +2261,8 @@
 					"-framework",
 					"\"UIKit\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.thingcom.GizMower;
-				PRODUCT_NAME = GizMower;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thingcom.MOWOXBLEWIFI;
+				PRODUCT_NAME = "Mower Pro";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -2341,7 +2335,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = 5FAMV3D32N;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2369,7 +2363,7 @@
 					"\"$PODS_CONFIGURATION_BUILD_DIR/SVProgressHUD\"",
 					"$(PROJECT_DIR)/StaticLibrary",
 				);
-				MARKETING_VERSION = 1.0.0;
+				MARKETING_VERSION = 1.0.13;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-all_load",
@@ -2386,8 +2380,8 @@
 					"-framework",
 					"\"UIKit\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.thingcom.GizMower;
-				PRODUCT_NAME = GizMower;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thingcom.MOWOXBLEWIFI;
+				PRODUCT_NAME = "Mower Pro";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";

@@ -8,7 +8,7 @@
 
 #import "TwoSimpleModelViewController.h"
 #import "TwoSimpleModelHelpViewController.h"
-#import "FinishViewController.h"
+#import "APFinishViewController.h"
 
 @interface TwoSimpleModelViewController ()
 
@@ -158,7 +158,7 @@
 
     NSString *wifiName = @"XPG-GAgent";
     if ([[GizManager getCurrentWifi] hasPrefix:wifiName]) {
-        FinishViewController *VC = [[FinishViewController alloc] init];
+        APFinishViewController *VC = [[APFinishViewController alloc] init];
         [self.navigationController pushViewController:VC animated:YES];
     }else{
         [self showAlert];

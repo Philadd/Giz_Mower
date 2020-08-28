@@ -8,7 +8,7 @@
 
 #import "TwoLCDModelViewController.h"
 #import "TwoLCDModelHelpViewController.h"
-#import "FinishViewController.h"
+#import "APFinishViewController.h"
 
 @interface TwoLCDModelViewController ()
 
@@ -165,7 +165,7 @@
 
     NSString *wifiName = @"XPG-GAgent";
     if ([[GizManager getCurrentWifi] hasPrefix:wifiName]) {
-        FinishViewController *VC = [[FinishViewController alloc] init];
+        APFinishViewController *VC = [[APFinishViewController alloc] init];
         [self.navigationController pushViewController:VC animated:YES];
     }else{
         [self showAlert];

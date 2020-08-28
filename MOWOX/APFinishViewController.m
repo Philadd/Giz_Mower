@@ -6,9 +6,9 @@
 //  Copyright © 2018 yusz. All rights reserved.
 //
 
-#import "FinishViewController.h"
+#import "APFinishViewController.h"
 
-@interface FinishViewController () <GizWifiSDKDelegate>
+@interface APFinishViewController () <GizWifiSDKDelegate>
 
 @property (strong, nonatomic) UIImageView *deviceImage;
 @property (nonatomic, strong) UILabel *Label;
@@ -16,7 +16,7 @@
 
 @end
 
-@implementation FinishViewController
+@implementation APFinishViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

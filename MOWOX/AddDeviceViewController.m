@@ -7,8 +7,7 @@
 //
 
 #import "AddDeviceViewController.h"
-#import "FinishViewController.h"
-#import "APConnectViewController.h"
+#import "APFinishViewController.h"
 #import <SystemConfiguration/CaptiveNetwork.h>
 #import <CoreLocation/CoreLocation.h>
 #import <objc/runtime.h>
