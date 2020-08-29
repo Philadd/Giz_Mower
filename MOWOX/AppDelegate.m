@@ -20,12 +20,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
-#if RobotMower
-    NSLog(@"RobotMower");
-#elif MOWOXROBOT
-    NSLog(@"MOWOXROBOT");
-#endif
-    
     [NSThread sleepForTimeInterval:1.0];//设置启动页面时间
     
     [self customizeInterface];
@@ -36,7 +30,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    
+    uint16_t a = 225;
+
+    NSLog(@"ssss%x %x",(uint16_t)a/256,(uint16_t)a%256);
     
 //    LoginViewController *vc = [[LoginViewController alloc] init];
 //    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];

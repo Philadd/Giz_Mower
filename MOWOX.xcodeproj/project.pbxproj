@@ -71,12 +71,14 @@
 		3644AFA224F75B130063D913 /* icon_check.png in Resources */ = {isa = PBXBuildFile; fileRef = 3644AFA124F75B130063D913 /* icon_check.png */; };
 		3644AFA524F7624B0063D913 /* OneLCDModelHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3644AFA424F7624B0063D913 /* OneLCDModelHelpViewController.m */; };
 		3644AFA824F762690063D913 /* TwoLCDModelHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3644AFA724F762690063D913 /* TwoLCDModelHelpViewController.m */; };
+		365E6BFD24F8F4670067E737 /* DY0L008.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 365E6BFA24F8F4670067E737 /* DY0L008.BIN */; };
+		365E6BFE24F8F4670067E737 /* DY0M008.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 365E6BFB24F8F4670067E737 /* DY0M008.BIN */; };
+		365E6BFF24F8F4670067E737 /* DY0R008.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 365E6BFC24F8F4670067E737 /* DY0R008.BIN */; };
+		365E6C0224FA2B790067E737 /* ipad40pt@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 365E6C0024FA2B790067E737 /* ipad40pt@1x.png */; };
+		365E6C0324FA2B790067E737 /* ipad20pt@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 365E6C0124FA2B790067E737 /* ipad20pt@1x.png */; };
 		36605E552253855500849403 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36605E542253855500849403 /* Images.xcassets */; };
 		3664F7B924F8E65B0098B249 /* DY00273.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 3664F7B424F8E65B0098B249 /* DY00273.BIN */; };
-		3664F7BA24F8E65B0098B249 /* DY0L008.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 3664F7B524F8E65B0098B249 /* DY0L008.BIN */; };
 		3664F7BB24F8E65B0098B249 /* DM00401.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 3664F7B624F8E65B0098B249 /* DM00401.BIN */; };
-		3664F7BC24F8E65B0098B249 /* DY0M008.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 3664F7B724F8E65B0098B249 /* DY0M008.BIN */; };
-		3664F7BD24F8E65B0098B249 /* DY0R008.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 3664F7B824F8E65B0098B249 /* DY0R008.BIN */; };
 		3669CF3D21C9EEE400F54D53 /* RegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3669CF3C21C9EEE400F54D53 /* RegisterViewController.m */; };
 		3669CF4121C9EF1D00F54D53 /* WelcomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3669CF4021C9EF1D00F54D53 /* WelcomeViewController.m */; };
 		3669CF4621C9EF2E00F54D53 /* AddDeviceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3669CF4221C9EF2E00F54D53 /* AddDeviceViewController.m */; };
@@ -388,12 +390,14 @@
 		3644AFA424F7624B0063D913 /* OneLCDModelHelpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneLCDModelHelpViewController.m; sourceTree = "<group>"; };
 		3644AFA624F762690063D913 /* TwoLCDModelHelpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoLCDModelHelpViewController.h; sourceTree = "<group>"; };
 		3644AFA724F762690063D913 /* TwoLCDModelHelpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoLCDModelHelpViewController.m; sourceTree = "<group>"; };
+		365E6BFA24F8F4670067E737 /* DY0L008.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY0L008.BIN; sourceTree = "<group>"; };
+		365E6BFB24F8F4670067E737 /* DY0M008.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY0M008.BIN; sourceTree = "<group>"; };
+		365E6BFC24F8F4670067E737 /* DY0R008.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY0R008.BIN; sourceTree = "<group>"; };
+		365E6C0024FA2B790067E737 /* ipad40pt@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad40pt@1x.png"; sourceTree = "<group>"; };
+		365E6C0124FA2B790067E737 /* ipad20pt@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad20pt@1x.png"; sourceTree = "<group>"; };
 		36605E542253855500849403 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3664F7B424F8E65B0098B249 /* DY00273.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY00273.BIN; sourceTree = "<group>"; };
-		3664F7B524F8E65B0098B249 /* DY0L008.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY0L008.BIN; sourceTree = "<group>"; };
 		3664F7B624F8E65B0098B249 /* DM00401.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DM00401.BIN; sourceTree = "<group>"; };
-		3664F7B724F8E65B0098B249 /* DY0M008.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY0M008.BIN; sourceTree = "<group>"; };
-		3664F7B824F8E65B0098B249 /* DY0R008.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY0R008.BIN; sourceTree = "<group>"; };
 		3669CF3B21C9EEE400F54D53 /* RegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterViewController.h; sourceTree = "<group>"; };
 		3669CF3C21C9EEE400F54D53 /* RegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterViewController.m; sourceTree = "<group>"; };
 		3669CF3F21C9EF1D00F54D53 /* WelcomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WelcomeViewController.h; sourceTree = "<group>"; };
@@ -887,6 +891,8 @@
 		36F0FCE32456C599006B1ABA /* MOWER Pro_icon */ = {
 			isa = PBXGroup;
 			children = (
+				365E6C0124FA2B790067E737 /* ipad20pt@1x.png */,
+				365E6C0024FA2B790067E737 /* ipad40pt@1x.png */,
 				36F0FCE42456C599006B1ABA /* iphone60pt@2x.png */,
 				36F0FCE52456C599006B1ABA /* iphone29pt@2x.png */,
 				36F0FCE62456C599006B1ABA /* ipad29pt@1x.png */,
@@ -913,10 +919,10 @@
 		3E0F567E1FF23F9400A4D339 /* bin */ = {
 			isa = PBXGroup;
 			children = (
+				365E6BFA24F8F4670067E737 /* DY0L008.BIN */,
+				365E6BFB24F8F4670067E737 /* DY0M008.BIN */,
+				365E6BFC24F8F4670067E737 /* DY0R008.BIN */,
 				3664F7B624F8E65B0098B249 /* DM00401.BIN */,
-				3664F7B524F8E65B0098B249 /* DY0L008.BIN */,
-				3664F7B724F8E65B0098B249 /* DY0M008.BIN */,
-				3664F7B824F8E65B0098B249 /* DY0R008.BIN */,
 				3664F7B424F8E65B0098B249 /* DY00273.BIN */,
 				36C6BEA124D4109C00E5B7F6 /* DM10340.BIN */,
 				36C6BEA524D4109C00E5B7F6 /* DM11340.BIN */,
@@ -1626,7 +1632,6 @@
 				3E11A3881FD90AAD000CAA08 /* 40@2x.png in Resources */,
 				3E2F25351FB949C200E79C23 /* findBluetooth@2x.png in Resources */,
 				3664F7BB24F8E65B0098B249 /* DM00401.BIN in Resources */,
-				3664F7BA24F8E65B0098B249 /* DY0L008.BIN in Resources */,
 				BBB611242019B111007FA3D4 /* 1024x1024@1x.png in Resources */,
 				36F0FCF62456C599006B1ABA /* iphone60pt@2x.png in Resources */,
 				BB513EFB2140DBB6000D2A5E /* img_nav_more@1x.png in Resources */,
@@ -1669,6 +1674,7 @@
 				3E11A38B1FD90AAD000CAA08 /* 80@3x.png in Resources */,
 				3E5815C01FAFF72300E93520 /* WorkingtimeSetting@1x.png in Resources */,
 				BBCCA45B2019B84C00423650 /* 80x80@2x.png in Resources */,
+				365E6C0224FA2B790067E737 /* ipad40pt@1x.png in Resources */,
 				3EA7AE061FB14B87001FB406 /* backgroundro@1x.png in Resources */,
 				3EA7AE051FB14B87001FB406 /* backgroundco@2x.png in Resources */,
 				36FE81C021DDF7F900BD29F4 /* ic_eyesclosed@2x.png in Resources */,
@@ -1700,8 +1706,8 @@
 				36F0FCFA2456C599006B1ABA /* 1024x1024.png in Resources */,
 				3644AF2624F652260063D913 /* img_addDevice_NextBtn.png in Resources */,
 				36FE81C421DE0A7200BD29F4 /* rememberpassword@2x.png in Resources */,
-				3664F7BC24F8E65B0098B249 /* DY0M008.BIN in Resources */,
 				3644AFA024F75AFB0063D913 /* 10.png in Resources */,
+				365E6BFE24F8F4670067E737 /* DY0M008.BIN in Resources */,
 				3644AF5C24F658980063D913 /* A6@2x.png in Resources */,
 				3E11A3851FD90AAD000CAA08 /* 120@3x.png in Resources */,
 				3E1480811FD00C0700FA8A2D /* A3@2x.png in Resources */,
@@ -1754,10 +1760,11 @@
 				3EF771AB1FAAA38A00EC016A /* up@1x.png in Resources */,
 				3E11A38E1FD90B46000CAA08 /* icon-60@2x.png in Resources */,
 				36C6BEAB24D4109C00E5B7F6 /* DY14273.BIN in Resources */,
+				365E6C0324FA2B790067E737 /* ipad20pt@1x.png in Resources */,
 				BB513EFD2140DBB6000D2A5E /* img_nav_more@2x.png in Resources */,
 				BB0A37AF2015944D00E5FD94 /* A2_50@2x.png in Resources */,
-				3664F7BD24F8E65B0098B249 /* DY0R008.BIN in Resources */,
 				BB479EFD208D6F9200B19D6A /* 1024*1024@1x.png in Resources */,
+				365E6BFF24F8F4670067E737 /* DY0R008.BIN in Resources */,
 				BBB611282019B111007FA3D4 /* 58x58@2x.png in Resources */,
 				3644AF5B24F658980063D913 /* 返回@2x.png in Resources */,
 				3E2454251FBD1F1000095FBE /* 割草机@2x.png in Resources */,
@@ -1801,6 +1808,7 @@
 				3E14806F1FCFFA8C00FA8A2D /* 电量5-2@1x.png in Resources */,
 				3644AF7424F67F930063D913 /* 19.png in Resources */,
 				3E43ACEA1FAACA5200924616 /* background1@2x.png in Resources */,
+				365E6BFD24F8F4670067E737 /* DY0L008.BIN in Resources */,
 				3644AF5424F658970063D913 /* img_connect_Btn.png in Resources */,
 				BBB6112C2019B1F3007FA3D4 /* 120x120@3x.png in Resources */,
 				36F0FCF92456C599006B1ABA /* iphone29pt@3x.png in Resources */,
@@ -2147,7 +2155,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 81D0F6572EC09A565F67D3F8 /* Pods-MOWOX.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = MOWOX/MOWOX.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -2214,7 +2222,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1F864A63560DCE59776D4952 /* Pods-MOWOX.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = MOWOX/MOWOX.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -2337,7 +2345,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 41AF602D45B7AE4EE6CB78D8 /* Pods-MOWOX.provisioning profile.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_ENTITLEMENTS = MOWOX/MOWOX.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";

@@ -278,7 +278,7 @@ static BluetoothDataManage *sgetonInstanceData = nil;
     {
         [appDelegate.currentPeripheral writeValue:sendDataBuffer forCharacteristic:appDelegate.currentCharacteristic type:CBCharacteristicWriteWithResponse];
     }
-    usleep(10 * 1000);
+    //usleep(10 * 1000);
 }
 
 
@@ -350,7 +350,6 @@ static BluetoothDataManage *sgetonInstanceData = nil;
                     case 4:
                     {
                         self.updateFirmware_packageNum_Right--;
-                        //[[NSNotificationCenter defaultCenter] postNotificationName:@"shaogujian" object:nil userInfo:nil];
                     }
                         break;
                         
