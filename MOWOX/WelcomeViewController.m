@@ -233,7 +233,9 @@ NSString *const CellIdentifier_landroid = @"CellID_landroid";
         NSString *password = [userDefaults objectForKey:@"password"];
         if ([password integerValue] == [userDefaults integerForKey:@"pincode"]) {
             RDVViewController *rdvView = [[RDVViewController alloc] init];
-            rdvView.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+            if (@available(iOS 13.0, *)) {
+                rdvView.modalInPresentation = YES;
+            }
             rdvView.modalTransitionStyle = UIModalPresentationFullScreen;
             [self presentViewController:rdvView animated:YES completion:nil];
         }
@@ -273,7 +275,9 @@ NSString *const CellIdentifier_landroid = @"CellID_landroid";
     NSString *password = [userDefaults objectForKey:@"password"];
     if ([password integerValue] == [userDefaults integerForKey:@"pincode"]) {
         RDVViewController *rdvView = [[RDVViewController alloc] init];
-        rdvView.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+        if (@available(iOS 13.0, *)) {
+            rdvView.modalInPresentation = YES;
+        }
         rdvView.modalTransitionStyle = UIModalPresentationFullScreen;
         [self presentViewController:rdvView animated:YES completion:nil];
     }else{
@@ -382,6 +386,9 @@ NSString *const CellIdentifier_landroid = @"CellID_landroid";
                 RDVViewController *rdvView = [[RDVViewController alloc] init];
                 rdvView.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
                 rdvView.modalTransitionStyle = UIModalPresentationFullScreen;
+                if (@available(iOS 13.0, *)) {
+                    rdvView.modalInPresentation = YES;
+                }
                 [self presentViewController:rdvView animated:YES completion:nil];
                 
             }else{

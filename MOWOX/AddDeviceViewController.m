@@ -58,7 +58,7 @@
 - (void)setNavItem{
     self.navigationItem.title = LocalString(@"Add Robot");
     UIBarButtonItem *backItem = [[UIBarButtonItem alloc] init];
-    backItem.title = @"Back";
+    backItem.title = LocalString(@"Back");
     self.navigationItem.backBarButtonItem = backItem;
 }
 
@@ -129,10 +129,8 @@
         _wifiNameTF.font = [UIFont systemFontOfSize:15.f];
         _wifiNameTF.textColor = [UIColor whiteColor];
         _wifiNameTF.clearButtonMode = UITextFieldViewModeWhileEditing;
-        _wifiNameTF.autocorrectionType = UITextAutocorrectionTypeNo;
         _wifiNameTF.delegate = self;
-        _wifiNameTF.keyboardType = UIKeyboardTypeNumbersAndPunctuation;
-        _wifiNameTF.borderStyle = UITextBorderStyleRoundedRect;
+        
         [_wifiNameTF addTarget:self action:@selector(textFieldTextChange) forControlEvents:UIControlEventEditingChanged];
         [self.view addSubview:_wifiNameTF];
         [_wifiNameTF mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -180,13 +178,8 @@
         _passwordTF.backgroundColor = [UIColor clearColor];
         _passwordTF.font = [UIFont systemFontOfSize:15.f];
         _passwordTF.textColor = [UIColor whiteColor];
-        _passwordTF.clearButtonMode = UITextFieldViewModeWhileEditing;
-        _passwordTF.autocorrectionType = UITextAutocorrectionTypeNo;
         _passwordTF.delegate = self;
         _passwordTF.secureTextEntry = YES;
-        _passwordTF.autocorrectionType = UITextAutocorrectionTypeNo;
-        _passwordTF.autocapitalizationType = UITextAutocapitalizationTypeNone;
-        _passwordTF.borderStyle = UITextBorderStyleRoundedRect;
         
         [_passwordTF addTarget:self action:@selector(textFieldTextChange) forControlEvents:UIControlEventEditingChanged];
         [self.view addSubview:_passwordTF];
@@ -216,7 +209,7 @@
         //[_nextBtn.titleLabel setFont:[UIFont systemFontOfSize:18.f]];
         //[_nextBtn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
         //[_nextBtn setBackgroundColor:[UIColor colorWithRed:250/255.0 green:250/255.0 blue:250/255.0 alpha:0.6]];
-        [_nextBtn addTarget:self action:@selector(next) forControlEvents:UIControlEventTouchUpInside];
+        [_nextBtn addTarget:self action:@selector(goNext) forControlEvents:UIControlEventTouchUpInside];
         _nextBtn.enabled = YES;
         [self.view addSubview:_nextBtn];
         [_nextBtn mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -312,19 +305,16 @@
 #pragma mark - UITextFieldDelegate
 - (void)textFieldDidBeginEditing:(UITextField *)textField{
     
-}
-
-#pragma mark - UIUITextField action
-
--(void)textFieldTextChange{
-    
-}
-
-#pragma mark - resign keyboard control
-
-- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
-    [self.wifiNameTF resignFirstResponder];
-    [self.passwordTF resignFirstResponder];
+    //设置动画的名字
+    [UIView beginAnimations:@"Animation" context:nil];
+    //设置动画的间隔时间
+    [UIView setAnimationDuration:0.3];
+    //使用当前正在运行的状态开始下一段动画
+    [UIView setAnimationBeginsFromCurrentState:YES];
+    //设置视图移动的位移
+    self.view.frame = CGRectMake(self.view.frame.origin.x, self.view.frame.origin.y - yAutoFit(200), self.view.frame.size.width, self.view.frame.size.height);
+    //设置动画结束
+    [UIView commitAnimations];
     
 }
 
@@ -332,11 +322,33 @@
 {
     [self.wifiNameTF resignFirstResponder];
     [self.passwordTF resignFirstResponder];
+    
+    //设置动画的名字
+    [UIView beginAnimations:@"Animation" context:nil];
+    //设置动画的间隔时间
+    [UIView setAnimationDuration:0.25];
+    //使用当前正在运行的状态开始下一段动画
+    [UIView setAnimationBeginsFromCurrentState:YES];
+    //设置视图移动的位移
+    self.view.frame = CGRectMake(self.view.frame.origin.x, self.view.frame.origin.y + yAutoFit(200), self.view.frame.size.width, self.view.frame.size.height);
+    //设置动画结束
+    [UIView commitAnimations];
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField{
     [textField resignFirstResponder];
     return YES;
+}
+
+-(void)textFieldTextChange{
+    
+}
+
+#pragma mark - resign keyboard control
+- (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event{
+    [self.wifiNameTF resignFirstResponder];
+    [self.passwordTF resignFirstResponder];
+    
 }
 
 - (void)eyespassword{
@@ -350,7 +362,7 @@
     
 }
 
--(void)next{
+-(void)goNext{
     GizManager *manager = [GizManager shareInstance];
     manager.ssid = _wifiNameTF.text;
     manager.key = _passwordTF.text;

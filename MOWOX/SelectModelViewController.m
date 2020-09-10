@@ -46,6 +46,9 @@
 
 - (void)setNavItem{
     self.navigationItem.title = LocalString(@"Add Robot");
+    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] init];
+    backItem.title = LocalString(@"Back");
+    self.navigationItem.backBarButtonItem = backItem;
     
 }
 

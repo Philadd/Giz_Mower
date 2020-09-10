@@ -43,6 +43,9 @@
 
 - (void)setNavItem{
     self.navigationItem.title = LocalString(@"LCD Version");
+    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] init];
+    backItem.title = LocalString(@"Back");
+    self.navigationItem.backBarButtonItem = backItem;
     
 }
 

@@ -43,6 +43,9 @@
 
 - (void)setNavItem{
     self.navigationItem.title = LocalString(@"Simple Version");
+    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] init];
+    backItem.title = LocalString(@"Back");
+    self.navigationItem.backBarButtonItem = backItem;
     
 }
 

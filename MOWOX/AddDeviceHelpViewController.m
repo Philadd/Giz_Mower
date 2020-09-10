@@ -34,6 +34,9 @@
 
 - (void)setNavItem{
     self.navigationItem.title = LocalString(@"Help");
+    UIBarButtonItem *backItem = [[UIBarButtonItem alloc] init];
+    backItem.title = LocalString(@"Back");
+    self.navigationItem.backBarButtonItem = backItem;
 }
 
 - (UILabel *)simpleModelLabel{

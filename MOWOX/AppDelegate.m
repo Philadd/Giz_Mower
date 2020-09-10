@@ -30,10 +30,6 @@
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    uint16_t a = 225;
-
-    NSLog(@"ssss%x %x",(uint16_t)a/256,(uint16_t)a%256);
-    
 //    LoginViewController *vc = [[LoginViewController alloc] init];
 //    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
 //    self.window.rootViewController = nav;
