@@ -540,8 +540,11 @@
 }
 
 - (void)backAction{
-    [self dismissViewControllerAnimated:YES completion:nil];
-    [[GizManager shareInstance].device setSubscribe:GizAppproductSecret subscribed:NO]; //解除订阅
+    
+    [self dismissViewControllerAnimated:NO completion:^{
+    //dismiss后再切换根视图
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"do" object:self];
+        }];
 }
 
 @end

@@ -41,13 +41,11 @@
 		3644AF5C24F658980063D913 /* A6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3644AF4224F658970063D913 /* A6@2x.png */; };
 		3644AF5D24F658980063D913 /* A1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3644AF4324F658970063D913 /* A1@3x.png */; };
 		3644AF5E24F658980063D913 /* A3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3644AF4424F658970063D913 /* A3@3x.png */; };
-		3644AF5F24F658980063D913 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3644AF4524F658970063D913 /* 1.png */; };
 		3644AF6124F658A70063D913 /* img_help.png in Resources */ = {isa = PBXBuildFile; fileRef = 3644AF6024F658A70063D913 /* img_help.png */; };
 		3644AF6424F662610063D913 /* SelectModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3644AF6324F662610063D913 /* SelectModelViewController.m */; };
 		3644AF6724F664F10063D913 /* AddDeviceHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3644AF6624F664F10063D913 /* AddDeviceHelpViewController.m */; };
 		3644AF7024F67F930063D913 /* img_model1_help_up_text.png in Resources */ = {isa = PBXBuildFile; fileRef = 3644AF6824F67F920063D913 /* img_model1_help_up_text.png */; };
 		3644AF7124F67F930063D913 /* img_lcdModelHelp1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3644AF6924F67F930063D913 /* img_lcdModelHelp1.png */; };
-		3644AF7224F67F930063D913 /* 24.png in Resources */ = {isa = PBXBuildFile; fileRef = 3644AF6A24F67F930063D913 /* 24.png */; };
 		3644AF7324F67F930063D913 /* img_model1_help_up.png in Resources */ = {isa = PBXBuildFile; fileRef = 3644AF6B24F67F930063D913 /* img_model1_help_up.png */; };
 		3644AF7424F67F930063D913 /* 19.png in Resources */ = {isa = PBXBuildFile; fileRef = 3644AF6C24F67F930063D913 /* 19.png */; };
 		3644AF7524F67F930063D913 /* img_lcdModelHelp2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3644AF6D24F67F930063D913 /* img_lcdModelHelp2.png */; };
@@ -116,14 +114,10 @@
 		36F0FCF92456C599006B1ABA /* iphone29pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F0FCE72456C599006B1ABA /* iphone29pt@3x.png */; };
 		36F0FCFA2456C599006B1ABA /* 1024x1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F0FCE82456C599006B1ABA /* 1024x1024.png */; };
 		36F0FCFB2456C599006B1ABA /* iphone60pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F0FCE92456C599006B1ABA /* iphone60pt@3x.png */; };
-		36F0FCFC2456C599006B1ABA /* ipad40pt@1x .png in Resources */ = {isa = PBXBuildFile; fileRef = 36F0FCEA2456C599006B1ABA /* ipad40pt@1x .png */; };
 		36F0FCFD2456C599006B1ABA /* ipad40pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F0FCEB2456C599006B1ABA /* ipad40pt@2x.png */; };
 		36F0FCFE2456C599006B1ABA /* ipad20pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F0FCEC2456C599006B1ABA /* ipad20pt@2x.png */; };
 		36F0FCFF2456C599006B1ABA /* iphone40pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F0FCED2456C599006B1ABA /* iphone40pt@2x.png */; };
-		36F0FD002456C599006B1ABA /* ipad20pt@1x .png in Resources */ = {isa = PBXBuildFile; fileRef = 36F0FCEE2456C599006B1ABA /* ipad20pt@1x .png */; };
-		36F0FD012456C599006B1ABA /* ipad76pt@1x .png in Resources */ = {isa = PBXBuildFile; fileRef = 36F0FCEF2456C599006B1ABA /* ipad76pt@1x .png */; };
 		36F0FD022456C599006B1ABA /* iphone20pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F0FCF02456C599006B1ABA /* iphone20pt@3x.png */; };
-		36F0FD032456C599006B1ABA /* iphone20pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F0FCF12456C599006B1ABA /* iphone20pt@2x.png */; };
 		36F0FD042456C599006B1ABA /* iphone40pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F0FCF22456C599006B1ABA /* iphone40pt@3x.png */; };
 		36F0FD052456C599006B1ABA /* 167X167.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F0FCF32456C599006B1ABA /* 167X167.png */; };
 		36F0FD062456C599006B1ABA /* ipad29pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 36F0FCF42456C599006B1ABA /* ipad29pt@2x.png */; };
@@ -293,6 +287,8 @@
 		BB8D94B4213FE8970079EE63 /* PasswordTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB8D94AF213FE8960079EE63 /* PasswordTableViewCell.xib */; };
 		BB8D94B6213FE8970079EE63 /* SSIDTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB8D94B0213FE8970079EE63 /* SSIDTableViewCell.xib */; };
 		BB8D94B8213FE8970079EE63 /* PasswordTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8D94B1213FE8970079EE63 /* PasswordTableViewCell.m */; };
+		BBA14A1B250A2214008DCC3A /* ipad76pt@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBA14A19250A2213008DCC3A /* ipad76pt@1x.png */; };
+		BBA14A1C250A2214008DCC3A /* iphone20pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBA14A1A250A2214008DCC3A /* iphone20pt@2x.png */; };
 		BBB611212019B111007FA3D4 /* 87x87@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBB611192019B111007FA3D4 /* 87x87@3x.png */; };
 		BBB611222019B111007FA3D4 /* 180x180@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBB6111A2019B111007FA3D4 /* 180x180@3x.png */; };
 		BBB611232019B111007FA3D4 /* 40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBB6111B2019B111007FA3D4 /* 40x40@2x.png */; };
@@ -345,7 +341,6 @@
 		3644AF4224F658970063D913 /* A6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "A6@2x.png"; sourceTree = "<group>"; };
 		3644AF4324F658970063D913 /* A1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "A1@3x.png"; sourceTree = "<group>"; };
 		3644AF4424F658970063D913 /* A3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "A3@3x.png"; sourceTree = "<group>"; };
-		3644AF4524F658970063D913 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = image/1.png; sourceTree = SOURCE_ROOT; };
 		3644AF6024F658A70063D913 /* img_help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_help.png; path = image/img_help.png; sourceTree = SOURCE_ROOT; };
 		3644AF6224F662610063D913 /* SelectModelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectModelViewController.h; sourceTree = "<group>"; };
 		3644AF6324F662610063D913 /* SelectModelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectModelViewController.m; sourceTree = "<group>"; };
@@ -353,7 +348,6 @@
 		3644AF6624F664F10063D913 /* AddDeviceHelpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddDeviceHelpViewController.m; sourceTree = "<group>"; };
 		3644AF6824F67F920063D913 /* img_model1_help_up_text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_model1_help_up_text.png; path = image/img_model1_help_up_text.png; sourceTree = SOURCE_ROOT; };
 		3644AF6924F67F930063D913 /* img_lcdModelHelp1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_lcdModelHelp1.png; path = image/img_lcdModelHelp1.png; sourceTree = SOURCE_ROOT; };
-		3644AF6A24F67F930063D913 /* 24.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 24.png; path = image/24.png; sourceTree = SOURCE_ROOT; };
 		3644AF6B24F67F930063D913 /* img_model1_help_up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_model1_help_up.png; path = image/img_model1_help_up.png; sourceTree = SOURCE_ROOT; };
 		3644AF6C24F67F930063D913 /* 19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 19.png; path = image/19.png; sourceTree = SOURCE_ROOT; };
 		3644AF6D24F67F930063D913 /* img_lcdModelHelp2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img_lcdModelHelp2.png; path = image/img_lcdModelHelp2.png; sourceTree = SOURCE_ROOT; };
@@ -447,14 +441,10 @@
 		36F0FCE72456C599006B1ABA /* iphone29pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone29pt@3x.png"; sourceTree = "<group>"; };
 		36F0FCE82456C599006B1ABA /* 1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1024x1024.png; sourceTree = "<group>"; };
 		36F0FCE92456C599006B1ABA /* iphone60pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone60pt@3x.png"; sourceTree = "<group>"; };
-		36F0FCEA2456C599006B1ABA /* ipad40pt@1x .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad40pt@1x .png"; sourceTree = "<group>"; };
 		36F0FCEB2456C599006B1ABA /* ipad40pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad40pt@2x.png"; sourceTree = "<group>"; };
 		36F0FCEC2456C599006B1ABA /* ipad20pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad20pt@2x.png"; sourceTree = "<group>"; };
 		36F0FCED2456C599006B1ABA /* iphone40pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone40pt@2x.png"; sourceTree = "<group>"; };
-		36F0FCEE2456C599006B1ABA /* ipad20pt@1x .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad20pt@1x .png"; sourceTree = "<group>"; };
-		36F0FCEF2456C599006B1ABA /* ipad76pt@1x .png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad76pt@1x .png"; sourceTree = "<group>"; };
 		36F0FCF02456C599006B1ABA /* iphone20pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone20pt@3x.png"; sourceTree = "<group>"; };
-		36F0FCF12456C599006B1ABA /* iphone20pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone20pt@2x.png"; sourceTree = "<group>"; };
 		36F0FCF22456C599006B1ABA /* iphone40pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone40pt@3x.png"; sourceTree = "<group>"; };
 		36F0FCF32456C599006B1ABA /* 167X167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 167X167.png; sourceTree = "<group>"; };
 		36F0FCF42456C599006B1ABA /* ipad29pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad29pt@2x.png"; sourceTree = "<group>"; };
@@ -736,6 +726,8 @@
 		BB8D94AF213FE8960079EE63 /* PasswordTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = PasswordTableViewCell.xib; path = WiFi/PasswordTableViewCell.xib; sourceTree = "<group>"; };
 		BB8D94B0213FE8970079EE63 /* SSIDTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SSIDTableViewCell.xib; path = WiFi/SSIDTableViewCell.xib; sourceTree = "<group>"; };
 		BB8D94B1213FE8970079EE63 /* PasswordTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PasswordTableViewCell.m; path = WiFi/PasswordTableViewCell.m; sourceTree = "<group>"; };
+		BBA14A19250A2213008DCC3A /* ipad76pt@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ipad76pt@1x.png"; sourceTree = "<group>"; };
+		BBA14A1A250A2214008DCC3A /* iphone20pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iphone20pt@2x.png"; sourceTree = "<group>"; };
 		BBA446522101713100D3B30E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "/Users/guiwukeji/Desktop/iOS开发/Mower-mowox_ware/Info.plist"; sourceTree = "<absolute>"; };
 		BBB611192019B111007FA3D4 /* 87x87@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "87x87@3x.png"; sourceTree = "<group>"; };
 		BBB6111A2019B111007FA3D4 /* 180x180@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "180x180@3x.png"; sourceTree = "<group>"; };
@@ -891,6 +883,8 @@
 		36F0FCE32456C599006B1ABA /* MOWER Pro_icon */ = {
 			isa = PBXGroup;
 			children = (
+				BBA14A19250A2213008DCC3A /* ipad76pt@1x.png */,
+				BBA14A1A250A2214008DCC3A /* iphone20pt@2x.png */,
 				365E6C0124FA2B790067E737 /* ipad20pt@1x.png */,
 				365E6C0024FA2B790067E737 /* ipad40pt@1x.png */,
 				36F0FCE42456C599006B1ABA /* iphone60pt@2x.png */,
@@ -899,14 +893,10 @@
 				36F0FCE72456C599006B1ABA /* iphone29pt@3x.png */,
 				36F0FCE82456C599006B1ABA /* 1024x1024.png */,
 				36F0FCE92456C599006B1ABA /* iphone60pt@3x.png */,
-				36F0FCEA2456C599006B1ABA /* ipad40pt@1x .png */,
 				36F0FCEB2456C599006B1ABA /* ipad40pt@2x.png */,
 				36F0FCEC2456C599006B1ABA /* ipad20pt@2x.png */,
 				36F0FCED2456C599006B1ABA /* iphone40pt@2x.png */,
-				36F0FCEE2456C599006B1ABA /* ipad20pt@1x .png */,
-				36F0FCEF2456C599006B1ABA /* ipad76pt@1x .png */,
 				36F0FCF02456C599006B1ABA /* iphone20pt@3x.png */,
-				36F0FCF12456C599006B1ABA /* iphone20pt@2x.png */,
 				36F0FCF22456C599006B1ABA /* iphone40pt@3x.png */,
 				36F0FCF32456C599006B1ABA /* 167X167.png */,
 				36F0FCF42456C599006B1ABA /* ipad29pt@2x.png */,
@@ -967,10 +957,8 @@
 				3644AF6C24F67F930063D913 /* 19.png */,
 				3644AF6F24F67F930063D913 /* img_lcdHelpWifi.png */,
 				3644AF6924F67F930063D913 /* img_lcdModelHelp1.png */,
-				3644AF6A24F67F930063D913 /* 24.png */,
 				3644AF6D24F67F930063D913 /* img_lcdModelHelp2.png */,
 				3644AF6024F658A70063D913 /* img_help.png */,
-				3644AF4524F658970063D913 /* 1.png */,
 				3644AF2824F658960063D913 /* img_simple_Btn.png */,
 				3644AF2C24F658960063D913 /* img_lcd_Btn.png */,
 				3644AF3924F658970063D913 /* img_connect_Btn.png */,
@@ -1620,7 +1608,6 @@
 				3E11A3861FD90AAD000CAA08 /* icon-150@3x.png in Resources */,
 				BBB611252019B111007FA3D4 /* 120x120@2x.png in Resources */,
 				3E1480511FCFEF1400FA8A2D /* 机器人APP1+2(1)-3.png in Resources */,
-				3644AF5F24F658980063D913 /* 1.png in Resources */,
 				3EE3DC481FA8B2BE0049B8F7 /* 右转@2x.png in Resources */,
 				36F0FCFB2456C599006B1ABA /* iphone60pt@3x.png in Resources */,
 				3644AF7724F67F930063D913 /* img_lcdHelpWifi.png in Resources */,
@@ -1641,6 +1628,7 @@
 				3E2F25311FB946EF00E79C23 /* Imformation@2x.png in Resources */,
 				3644AF7524F67F930063D913 /* img_lcdModelHelp2.png in Resources */,
 				BB2CF26821DF4436008DA45E /* img_logout@2x.png in Resources */,
+				BBA14A1B250A2214008DCC3A /* ipad76pt@1x.png in Resources */,
 				BB0A37B12015944D00E5FD94 /* A3_50@2x.png in Resources */,
 				36FE81C321DE0A7200BD29F4 /* not password@2x.png in Resources */,
 				BB8D9490213FE33C0079EE63 /* DeviceTableViewCell.xib in Resources */,
@@ -1682,6 +1670,7 @@
 				3644AF5024F658970063D913 /* img_LCDmodel1_help.png in Resources */,
 				3E1480631FCFEF1400FA8A2D /* 蓝牙连接@2x.png in Resources */,
 				36F0FD072456C599006B1ABA /* ipad76pt@2x.png in Resources */,
+				BBA14A1C250A2214008DCC3A /* iphone20pt@2x.png in Resources */,
 				BB479EF5208D6F9200B19D6A /* 1024.png in Resources */,
 				3E14806D1FCFFA8C00FA8A2D /* 电量3-2@1x.png in Resources */,
 				BBB611222019B111007FA3D4 /* 180x180@3x.png in Resources */,
@@ -1694,7 +1683,6 @@
 				3E6325571FA6D8F000F14462 /* 未选中@1x.png in Resources */,
 				3E43AD2B1FAAED0500924616 /* 倒三角@1x.png in Resources */,
 				36C6BEA824D4109C00E5B7F6 /* DM10340.BIN in Resources */,
-				3644AF7224F67F930063D913 /* 24.png in Resources */,
 				3E63255E1FA6F8C500F14462 /* 选中@2x.png in Resources */,
 				BB479EFC208D6F9200B19D6A /* 80*80@2x.png in Resources */,
 				36F0FD062456C599006B1ABA /* ipad29pt@2x.png in Resources */,
@@ -1723,7 +1711,6 @@
 				3E1480501FCFEF1400FA8A2D /* launchImage@2x.png in Resources */,
 				3644AF5E24F658980063D913 /* A3@3x.png in Resources */,
 				3E2F25331FB946EF00E79C23 /* WorkingtimeSetting@2x.png in Resources */,
-				36F0FD002456C599006B1ABA /* ipad20pt@1x .png in Resources */,
 				3EF771A81FAAA38A00EC016A /* home@1x.png in Resources */,
 				3E43AD331FAAF4E100924616 /* 电量3@1x.png in Resources */,
 				BBB611232019B111007FA3D4 /* 40x40@2x.png in Resources */,
@@ -1770,19 +1757,16 @@
 				3E2454251FBD1F1000095FBE /* 割草机@2x.png in Resources */,
 				3E43ACDD1FAAB39C00924616 /* backview@1x.png in Resources */,
 				36C6BEAC24D4109C00E5B7F6 /* DM11340.BIN in Resources */,
-				36F0FCFC2456C599006B1ABA /* ipad40pt@1x .png in Resources */,
 				36FE81C621DE0B5D00BD29F4 /* finishdevice@2x.png in Resources */,
 				3EC2009C1FE275710005F15A /* 返回@2x.png in Resources */,
 				BBB611212019B111007FA3D4 /* 87x87@3x.png in Resources */,
 				3E2F25321FB946EF00E79C23 /* Pinsetting@2x.png in Resources */,
-				36F0FD012456C599006B1ABA /* ipad76pt@1x .png in Resources */,
 				3644AF5D24F658980063D913 /* A1@3x.png in Resources */,
 				BB513EEF2140C7A9000D2A5E /* img_wifi@2x.png in Resources */,
 				3644AF4F24F658970063D913 /* img_model2_btn.png in Resources */,
 				BB479EF6208D6F9200B19D6A /* 58*58@2x.png in Resources */,
 				3644AF5624F658970063D913 /* 14.png in Resources */,
 				3664F7B924F8E65B0098B249 /* DY00273.BIN in Resources */,
-				36F0FD032456C599006B1ABA /* iphone20pt@2x.png in Resources */,
 				3E14805F1FCFEF1400FA8A2D /* A1@3x.png in Resources */,
 				3644AF5224F658970063D913 /* img_model2_help.png in Resources */,
 				36F0FCFF2456C599006B1ABA /* iphone40pt@2x.png in Resources */,

@@ -45,6 +45,8 @@ NSString *const CellIdentifier_landroid = @"CellID_landroid";
     self.addButton = [self addButton];
     self.deviceTable = [self deviceTable];
     [self setMowerTime];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updateList) name:@"do" object:nil];
 }
 
 - (void)viewWillAppear:(BOOL)animated{
@@ -62,6 +64,7 @@ NSString *const CellIdentifier_landroid = @"CellID_landroid";
 {
     [super viewWillDisappear:animated];
     [[NSNotificationCenter defaultCenter] removeObserver:self name:@"updatePinCode" object:nil];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:@"do" object:nil];
 }
 
 #pragma mark - Lazy load
@@ -477,6 +480,17 @@ NSString *const CellIdentifier_landroid = @"CellID_landroid";
         [alert addAction:cancelAction];
         [alert addAction:sureAction];
         [self presentViewController:alert animated:YES completion:nil];
+
+}
+
+- (void)updateList{
+    
+    self.bluetoothDataManage = [BluetoothDataManage shareInstance];
+    GizManager *manager = [GizManager shareInstance];
+    [GizWifiSDK sharedInstance].delegate = self;
+    [[GizWifiSDK sharedInstance] getBoundDevices:manager.uid token:manager.token];
+    
+    [[GizManager shareInstance].device setSubscribe:GizAppproductSecret subscribed:NO]; // 解除订阅
 
 }
 
