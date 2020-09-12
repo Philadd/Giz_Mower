@@ -34,6 +34,9 @@ NSString *const CellIdentifier_landroid = @"CellID_landroid";
 @end
 
 @implementation WelcomeViewController
+{
+    NSTimeInterval time;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -55,15 +58,12 @@ NSString *const CellIdentifier_landroid = @"CellID_landroid";
     GizManager *manager = [GizManager shareInstance];
     [GizWifiSDK sharedInstance].delegate = self;
     [[GizWifiSDK sharedInstance] getBoundDevices:manager.uid token:manager.token];
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(updatePinCode) name:@"updatePinCode" object:nil];
   
 }
 
 - (void)viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:@"updatePinCode" object:nil];
     [[NSNotificationCenter defaultCenter] removeObserver:self name:@"do" object:nil];
 }
 
@@ -220,35 +220,44 @@ NSString *const CellIdentifier_landroid = @"CellID_landroid";
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    //定阅设备
     GizWifiDevice *device = _deviceArray[indexPath.row];
     [[GizManager shareInstance] setGizDevice:device];
     
-    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    
-    if ([defaults integerForKey:@"pincode"]) {
-        [BluetoothDataManage shareInstance].pincode = (int)[defaults integerForKey:@"pincode"];
+    NSTimeInterval currentTime = [NSDate date].timeIntervalSince1970;//防止暴力点击
+    if (currentTime - time > 1){//限制用户点击按钮的时间间隔大于1秒钟
         
-        //解决如果机器不发请求 默认之前保存密码 进入页面。
-        NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-        NSString *password = [userDefaults objectForKey:@"password"];
-        if ([password integerValue] == [userDefaults integerForKey:@"pincode"]) {
-            RDVViewController *rdvView = [[RDVViewController alloc] init];
-            if (@available(iOS 13.0, *)) {
-                rdvView.modalInPresentation = YES;
+        NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+        if ([defaults integerForKey:@"pincode"]) {
+            [BluetoothDataManage shareInstance].pincode = (int)[defaults integerForKey:@"pincode"];
+            
+            //解决如果机器不发请求 默认之前保存密码 进入页面。
+            NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
+            NSString *password = [userDefaults objectForKey:@"password"];
+            if ([password integerValue] == [userDefaults integerForKey:@"pincode"]) {
+                
+                RDVViewController *rdvView = [[RDVViewController alloc] init];
+                if (@available(iOS 13.0, *)) {
+                    rdvView.modalInPresentation = YES;
+                }
+                rdvView.modalPresentationStyle = UIModalPresentationFullScreen;
+                [self presentViewController:rdvView animated:YES completion:nil];
+                return;
             }
-            rdvView.modalTransitionStyle = UIModalPresentationFullScreen;
-            [self presentViewController:rdvView animated:YES completion:nil];
         }
+        //更新点击时间
+        time = currentTime;
         //子线程延时1s
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             [self getPINData];
         });
         
-    }else{
-        //子线程延时1s
-        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-            [self getPINData];
-        });
+        //密码不对 应该输入最新密码
+        _resultLabel = [[UILabel alloc] init];
+        _popView = [[LMPopInputPasswordView alloc]init];
+        _popView.frame = CGRectMake((self.view.frame.size.width - 250)*0.5, 50, 250, 150);
+        _popView.delegate = self;
+        [_popView pop];
     }
 }
 
@@ -267,26 +276,6 @@ NSString *const CellIdentifier_landroid = @"CellID_landroid";
     [self.bluetoothDataManage setDataType:0x0c];
     [self.bluetoothDataManage setDataContent: dataContent];
     [self.bluetoothDataManage sendBluetoothFrame];
-}
-
-//接收通知
-- (void)updatePinCode{
-    NSUserDefaults *userDefaults = [NSUserDefaults standardUserDefaults];
-    NSString *password = [userDefaults objectForKey:@"password"];
-    if ([password integerValue] == [userDefaults integerForKey:@"pincode"]) {
-        RDVViewController *rdvView = [[RDVViewController alloc] init];
-        if (@available(iOS 13.0, *)) {
-            rdvView.modalInPresentation = YES;
-        }
-        rdvView.modalTransitionStyle = UIModalPresentationFullScreen;
-        [self presentViewController:rdvView animated:YES completion:nil];
-    }else{
-        _resultLabel = [[UILabel alloc] init];
-        _popView = [[LMPopInputPasswordView alloc]init];
-        _popView.frame = CGRectMake((self.view.frame.size.width - 250)*0.5, 50, 250, 150);
-        _popView.delegate = self;
-        [_popView pop];
-    }
 }
 
 #pragma mark - Giz delegate

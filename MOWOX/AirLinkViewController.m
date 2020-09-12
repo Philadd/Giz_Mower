@@ -129,9 +129,27 @@
         // 绑定成功
         NSLog(@"绑定成功");
         NSLog(@"%@",result);
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"do" object:self];
+    
+        //设备信息 绑定设备成功后再跳转
+        [GizManager shareInstance].did = did;
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:LocalString(@"Configue Result") message:LocalString(@"SUCCESSFUL!") preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:LocalString(@"I know") style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+            NSLog(@"action = %@",action);
+        }];
+        [alert addAction:cancelAction];
+        [self presentViewController:alert animated:YES completion:nil];
+        
     } else {
         // 绑定失败
         NSLog(@"绑定失败");
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:LocalString(@"Configue Result") message:LocalString(@"FAILED!") preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:LocalString(@"I know") style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+            [self.navigationController popToRootViewControllerAnimated:YES];
+            NSLog(@"action = %@",action);
+        }];
+        [alert addAction:cancelAction];
+        [self presentViewController:alert animated:YES completion:nil];
     }
     
 }
@@ -149,15 +167,7 @@
 -(void)wifiSDK:(GizWifiSDK *)wifiSDK didSetDeviceOnboarding:(NSError * _Nonnull)result mac:(NSString * _Nullable)mac did:(NSString * _Nullable)did productKey:(NSString * _Nullable)productKey{
     [MBProgressHUD hideHUDForView:self.view animated:YES];
     if (result.code == GIZ_SDK_SUCCESS) {
-        //设备信息
         [GizManager shareInstance].did = did;
-        UIAlertController *alert = [UIAlertController alertControllerWithTitle:LocalString(@"Configue Result") message:LocalString(@"SUCCESSFUL!") preferredStyle:UIAlertControllerStyleAlert];
-        UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:LocalString(@"I know") style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
-            NSLog(@"action = %@",action);
-        }];
-        [alert addAction:cancelAction];
-        [self presentViewController:alert animated:YES completion:nil];
-       
         [[GizWifiSDK sharedInstance] bindRemoteDevice:[GizManager shareInstance].uid token:[GizManager shareInstance].token mac:mac productKey:productKey productSecret:GizAppproductSecret beOwner:NO];
     }else{
         

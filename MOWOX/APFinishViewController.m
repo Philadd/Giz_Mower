@@ -45,7 +45,7 @@
     //airlink配网模式
     //[[GizWifiSDK sharedInstance] setDeviceOnboardingDeploy:manager.ssid key:manager.key configMode:GizWifiAirLink softAPSSIDPrefix:nil timeout:60 wifiGAgentType:[NSArray arrayWithObjects:@(GizGAgentESP), nil] bind:NO];
     //ap配网模式
-    [[GizWifiSDK sharedInstance] setDeviceOnboardingDeploy:manager.ssid key:manager.key configMode:GizWifiSoftAP softAPSSIDPrefix:@"XPG-GAgent-" timeout:60 wifiGAgentType:nil bind:YES];
+    [[GizWifiSDK sharedInstance] setDeviceOnboardingDeploy:manager.ssid key:manager.key configMode:GizWifiSoftAP softAPSSIDPrefix:@"XPG-GAgent" timeout:60 wifiGAgentType:nil bind:YES];
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
 }
 
@@ -131,9 +131,25 @@
         // 绑定成功
         NSLog(@"绑定成功");
         NSLog(@"%@",result);
+        //通知 更新机智云列表
+        [[NSNotificationCenter defaultCenter] postNotificationName:@"do" object:self];
+        
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:LocalString(@"Configue Result") message:LocalString(@"SUCCESSFUL!") preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:LocalString(@"I know") style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+            NSLog(@"action = %@",action);
+        }];
+        [alert addAction:cancelAction];
+        [self presentViewController:alert animated:YES completion:nil];
     } else {
         // 绑定失败
         NSLog(@"绑定失败");
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:LocalString(@"Configue Result") message:LocalString(@"FAILED!") preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:LocalString(@"I know") style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+            [self.navigationController popToRootViewControllerAnimated:YES];
+            NSLog(@"action = %@",action);
+        }];
+        [alert addAction:cancelAction];
+        [self presentViewController:alert animated:YES completion:nil];
     }
     
 }
@@ -153,12 +169,6 @@
     if (result.code == GIZ_SDK_SUCCESS) {
         //设备信息
         [GizManager shareInstance].did = did;
-        UIAlertController *alert = [UIAlertController alertControllerWithTitle:LocalString(@"Configue Result") message:LocalString(@"SUCCESSFUL!") preferredStyle:UIAlertControllerStyleAlert];
-        UIAlertAction *cancelAction = [UIAlertAction actionWithTitle:LocalString(@"I know") style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
-            NSLog(@"action = %@",action);
-        }];
-        [alert addAction:cancelAction];
-        [self presentViewController:alert animated:YES completion:nil];
        
         [[GizWifiSDK sharedInstance] bindRemoteDevice:[GizManager shareInstance].uid token:[GizManager shareInstance].token mac:mac productKey:productKey productSecret:GizAppproductSecret beOwner:NO];
     }else{
