@@ -187,7 +187,7 @@
 "Make sure to use 2.4GHz Wi-Fi network." = "Verwenden Sie nur ein 2.4GHz Wi-Fi-Netzwerk.";
 "Connect" = "Verbinden";
 "Jump prompt" = "Mitteilung überspringen";
-"Connect hotspots “XPG-GAgent” in settings,Password:123456789" = "Verbinden Sie unter Einstellung den Hotspot “XPG-GAgent”;Passwort:123456789";
+"Connect hotspots “Robot_Mower” in settings" = "Verbinden Sie unter Einstellung den Hotspot “Robot_Mower”";
 "Finish" = "Beenden";
 
 "English" = "Englisch";

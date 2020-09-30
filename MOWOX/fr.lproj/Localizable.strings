@@ -186,7 +186,7 @@
 "1.Turn on your Robot.\n2.Move the cursor to\"WIFI Setting\",then press OK;the text Network Configuration……will appear.\n3.Press the connection buttton and wait for the process to complete." = "1. Allumez votre robot.\n2.Déplacez votre curseur sur \"Paramètres Wi-Fi\", puis appuyez sur \"OK\". Le texte \"Configuration du réseau…\" s'affichera. \n3.Appuyez sur le bouton de connexion et patientez jusqu'à la fin de la procédure.";
 "Connect" = "Se connecter";
 "Jump prompt" = "Message d'alerte";
-"Connect hotspots “XPG-GAgent” in settings,Password:123456789" = "Connectez le point d'accès « XPG-Gagent » dans les paramètres, Mot de passe : 123456789";
+"Connect hotspots “Robot_Mower” in settings" = "Connectez le point d'accès « Robot_Mower » dans les paramètres";
 "Finish" = "Terminé";
 
 "English" = "Anglicky";

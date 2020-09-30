@@ -594,7 +594,7 @@
 		3E5D74F51FCD583A007F8E71 /* connectButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = connectButton.m; sourceTree = "<group>"; };
 		3E5D74F71FCD5E25007F8E71 /* UIButton+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Common.h"; sourceTree = "<group>"; };
 		3E5D74F81FCD5E25007F8E71 /* UIButton+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Common.m"; sourceTree = "<group>"; };
-		3E6325221FA6BC5F00F14462 /* Mower Pro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mower Pro.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E6325221FA6BC5F00F14462 /* RoMow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoMow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E6325261FA6BC5F00F14462 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3E6325281FA6BC5F00F14462 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3E6325291FA6BC5F00F14462 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -1132,7 +1132,7 @@
 		3E6325231FA6BC5F00F14462 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3E6325221FA6BC5F00F14462 /* Mower Pro.app */,
+				3E6325221FA6BC5F00F14462 /* RoMow.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1523,7 +1523,7 @@
 			);
 			name = Giz_Mower;
 			productName = MOWOX;
-			productReference = 3E6325221FA6BC5F00F14462 /* Mower Pro.app */;
+			productReference = 3E6325221FA6BC5F00F14462 /* RoMow.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -2145,7 +2145,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5FAMV3D32N;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2177,7 +2177,7 @@
 					"\"$PODS_CONFIGURATION_BUILD_DIR/SVProgressHUD\"",
 					"$(PROJECT_DIR)/StaticLibrary",
 				);
-				MARKETING_VERSION = 1.0.13;
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-all_load",
@@ -2194,8 +2194,8 @@
 					"-framework",
 					"\"UIKit\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.thingcom.MOWOXBLEWIFI;
-				PRODUCT_NAME = "Mower Pro";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thingcom.RoMow;
+				PRODUCT_NAME = RoMow;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -2212,7 +2212,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5FAMV3D32N;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2244,7 +2244,7 @@
 					"\"$PODS_CONFIGURATION_BUILD_DIR/SVProgressHUD\"",
 					"$(PROJECT_DIR)/StaticLibrary",
 				);
-				MARKETING_VERSION = 1.0.13;
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-all_load",
@@ -2261,8 +2261,8 @@
 					"-framework",
 					"\"UIKit\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.thingcom.MOWOXBLEWIFI;
-				PRODUCT_NAME = "Mower Pro";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thingcom.RoMow;
+				PRODUCT_NAME = RoMow;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";
@@ -2335,7 +2335,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 15;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5FAMV3D32N;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2363,7 +2363,7 @@
 					"\"$PODS_CONFIGURATION_BUILD_DIR/SVProgressHUD\"",
 					"$(PROJECT_DIR)/StaticLibrary",
 				);
-				MARKETING_VERSION = 1.0.13;
+				MARKETING_VERSION = 1.0.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-all_load",
@@ -2380,8 +2380,8 @@
 					"-framework",
 					"\"UIKit\"",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.thingcom.MOWOXBLEWIFI;
-				PRODUCT_NAME = "Mower Pro";
+				PRODUCT_BUNDLE_IDENTIFIER = com.thingcom.RoMow;
+				PRODUCT_NAME = RoMow;
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "";

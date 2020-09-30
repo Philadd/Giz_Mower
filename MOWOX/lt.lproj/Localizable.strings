@@ -194,7 +194,7 @@
 "1.Turn on your Robot.\n2.Move the cursor to\"WIFI Setting\",then press OK;the text Network Configuration……will appear.\n3.Press the connection buttton and wait for the process to complete." = "1. Įjunkite Robotq \n2. Perkelkite žymeklį prie Wi-Fi nustatymų ir paspauskite OK; pasirodys tekstas Network Configuration (Tinklo konfigūravimas). \n3. Paspauskite yšio mygtuką ir palaukite, kol procesas bus baigtas.";
 "Connect" = "Prisijungti";
 "Jump prompt" = "Spartusis peršokimas";
-"prisjungti prie taškų (hotspots) “XPG-GAgent” nustatymuose, Spaltažodis :123456789" = "prisjungti prie taškų (hotspots) “XPG-GAgent” nustatymuose, Spaltažodis :123456789";
+"Connect hotspots “Robot_Mower” in settings"= "prisjungti prie taškų (hotspots) “Robot_Mower” nustatymuose";
 "Finish" = "Pabaigti";
 "English" = "Anglų";
 "German" = "Vokiečių";

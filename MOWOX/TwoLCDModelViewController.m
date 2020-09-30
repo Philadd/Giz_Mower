@@ -166,7 +166,7 @@
 //        [self showAlert];
 //    }
 
-    NSString *wifiName = @"XPG-GAgent";
+    NSString *wifiName = @"Robot_Mower";
     if ([[GizManager getCurrentWifi] hasPrefix:wifiName]) {
         APFinishViewController *VC = [[APFinishViewController alloc] init];
         [self.navigationController pushViewController:VC animated:YES];
@@ -176,7 +176,7 @@
 }
 
 - (void)showAlert{
-    UIAlertController *alert = [UIAlertController alertControllerWithTitle:LocalString(@"Jump prompt") message:LocalString(@"Connect hotspots “XPG-GAgent” in settings,Password:123456789") preferredStyle:UIAlertControllerStyleAlert];
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:LocalString(@"Jump prompt") message:LocalString(@"Connect hotspots “Robot_Mower” in settings") preferredStyle:UIAlertControllerStyleAlert];
     UIAlertAction *okAction = [UIAlertAction actionWithTitle:LocalString(@"OK") style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         if (@available(iOS 10.0, *)) {
             [[UIApplication sharedApplication] openURL:[NSURL URLWithString:UIApplicationOpenSettingsURLString]];

@@ -45,7 +45,7 @@
     //airlink配网模式
     //[[GizWifiSDK sharedInstance] setDeviceOnboardingDeploy:manager.ssid key:manager.key configMode:GizWifiAirLink softAPSSIDPrefix:nil timeout:60 wifiGAgentType:[NSArray arrayWithObjects:@(GizGAgentESP), nil] bind:NO];
     //ap配网模式
-    [[GizWifiSDK sharedInstance] setDeviceOnboardingDeploy:manager.ssid key:manager.key configMode:GizWifiSoftAP softAPSSIDPrefix:@"XPG-GAgent" timeout:60 wifiGAgentType:nil bind:YES];
+    [[GizWifiSDK sharedInstance] setDeviceOnboardingDeploy:manager.ssid key:manager.key configMode:GizWifiSoftAP softAPSSIDPrefix:@"Robot_Mower" timeout:60 wifiGAgentType:nil bind:YES];
     [MBProgressHUD showHUDAddedTo:self.view animated:YES];
 }
 

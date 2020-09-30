@@ -189,7 +189,7 @@
 "1.Turn on your Robot.\n2.Move the cursor to\"WIFI Setting\",then press OK;the text Network Configuration……will appear.\n3.Press the connection buttton and wait for the process to complete." = "1. Kytke robotti päälle \n2. Siirrä kursori kohtaan \"Langattoman yhteyden asetus\" ja paina sitten OK. Teksti Verkon asetukset…...tulee näkyviin.\n3.Paina yhdistä-painiketta ja odota, että prosessi on valmis.";
 "Connect" = "Yhdistä";
 "Jump prompt" = "Hyppää ohje";
-"Connect hotspots “XPG-GAgent” in settings,Password:123456789" = "Yhdistä hotspot \"XPG-GAgent\" asetuksissa, Salasana: 123456789";
+"Connect hotspots “Robot_Mower” in settings" = "Yhdistä hotspot \"Robot_Mower\" asetuksissa";
 "Finish" = "Lopeta";
 "English" = "englanti";
 "German" = "saksa";
