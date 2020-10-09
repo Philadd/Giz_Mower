@@ -69,6 +69,10 @@
 		3644AFA224F75B130063D913 /* icon_check.png in Resources */ = {isa = PBXBuildFile; fileRef = 3644AFA124F75B130063D913 /* icon_check.png */; };
 		3644AFA524F7624B0063D913 /* OneLCDModelHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3644AFA424F7624B0063D913 /* OneLCDModelHelpViewController.m */; };
 		3644AFA824F762690063D913 /* TwoLCDModelHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3644AFA724F762690063D913 /* TwoLCDModelHelpViewController.m */; };
+		3658FEE62530141E00815B94 /* MowerSetingVC_type4.m in Sources */ = {isa = PBXBuildFile; fileRef = 3658FEE52530141E00815B94 /* MowerSetingVC_type4.m */; };
+		3658FEFB2530522B00815B94 /* DY05273.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 3658FEF82530522B00815B94 /* DY05273.BIN */; };
+		3658FEFC2530522B00815B94 /* DY10273.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 3658FEF92530522B00815B94 /* DY10273.BIN */; };
+		3658FEFD2530522B00815B94 /* DY15273.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 3658FEFA2530522B00815B94 /* DY15273.BIN */; };
 		365E6BFD24F8F4670067E737 /* DY0L008.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 365E6BFA24F8F4670067E737 /* DY0L008.BIN */; };
 		365E6BFE24F8F4670067E737 /* DY0M008.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 365E6BFB24F8F4670067E737 /* DY0M008.BIN */; };
 		365E6BFF24F8F4670067E737 /* DY0R008.BIN in Resources */ = {isa = PBXBuildFile; fileRef = 365E6BFC24F8F4670067E737 /* DY0R008.BIN */; };
@@ -384,6 +388,11 @@
 		3644AFA424F7624B0063D913 /* OneLCDModelHelpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneLCDModelHelpViewController.m; sourceTree = "<group>"; };
 		3644AFA624F762690063D913 /* TwoLCDModelHelpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoLCDModelHelpViewController.h; sourceTree = "<group>"; };
 		3644AFA724F762690063D913 /* TwoLCDModelHelpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoLCDModelHelpViewController.m; sourceTree = "<group>"; };
+		3658FEE42530141E00815B94 /* MowerSetingVC_type4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MowerSetingVC_type4.h; sourceTree = "<group>"; };
+		3658FEE52530141E00815B94 /* MowerSetingVC_type4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MowerSetingVC_type4.m; sourceTree = "<group>"; };
+		3658FEF82530522B00815B94 /* DY05273.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY05273.BIN; sourceTree = "<group>"; };
+		3658FEF92530522B00815B94 /* DY10273.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY10273.BIN; sourceTree = "<group>"; };
+		3658FEFA2530522B00815B94 /* DY15273.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY15273.BIN; sourceTree = "<group>"; };
 		365E6BFA24F8F4670067E737 /* DY0L008.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY0L008.BIN; sourceTree = "<group>"; };
 		365E6BFB24F8F4670067E737 /* DY0M008.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY0M008.BIN; sourceTree = "<group>"; };
 		365E6BFC24F8F4670067E737 /* DY0R008.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DY0R008.BIN; sourceTree = "<group>"; };
@@ -909,6 +918,9 @@
 		3E0F567E1FF23F9400A4D339 /* bin */ = {
 			isa = PBXGroup;
 			children = (
+				3658FEF82530522B00815B94 /* DY05273.BIN */,
+				3658FEF92530522B00815B94 /* DY10273.BIN */,
+				3658FEFA2530522B00815B94 /* DY15273.BIN */,
 				365E6BFA24F8F4670067E737 /* DY0L008.BIN */,
 				365E6BFB24F8F4670067E737 /* DY0M008.BIN */,
 				365E6BFC24F8F4670067E737 /* DY0R008.BIN */,
@@ -1354,8 +1366,10 @@
 				36BD41D623CC680900C9C451 /* WorkTimeSettingViewController.m */,
 				36BEE7132445ED2E00684369 /* WorkTimeSettingVC_268.h */,
 				36BEE7142445ED2E00684369 /* WorkTimeSettingVC_268.m */,
-				3E3AD4761FDBC36A00667EDA /* MowerSettingViewController.m */,
 				3E3AD4751FDBC36A00667EDA /* MowerSettingViewController.h */,
+				3E3AD4761FDBC36A00667EDA /* MowerSettingViewController.m */,
+				3658FEE42530141E00815B94 /* MowerSetingVC_type4.h */,
+				3658FEE52530141E00815B94 /* MowerSetingVC_type4.m */,
 				3E1284C21FF32E510087CBED /* FirmwareViewController.h */,
 				3E1284C31FF32E510087CBED /* FirmwareViewController.m */,
 				36E9696124EA375500190201 /* OldFirmwareViewController.h */,
@@ -1717,6 +1731,7 @@
 				36C6BEAA24D4109C00E5B7F6 /* DY02273.BIN in Resources */,
 				36FE81C821DE0B6400BD29F4 /* device@2x.png in Resources */,
 				BB513EF12140C7A9000D2A5E /* img_wifi@1x.png in Resources */,
+				3658FEFD2530522B00815B94 /* DY15273.BIN in Resources */,
 				3644AF4A24F658970063D913 /* img_LCDmodel2_help.png in Resources */,
 				BB479EFB208D6F9200B19D6A /* 120*120@2x.png in Resources */,
 				BB5C49CB207D9B28007B2508 /* updateFirmwareTip@2x.png in Resources */,
@@ -1745,6 +1760,7 @@
 				3E43ACE61FAAB39C00924616 /* whether@1x.png in Resources */,
 				3E63255D1FA6F8C500F14462 /* 未选中@2x.png in Resources */,
 				3EF771AB1FAAA38A00EC016A /* up@1x.png in Resources */,
+				3658FEFB2530522B00815B94 /* DY05273.BIN in Resources */,
 				3E11A38E1FD90B46000CAA08 /* icon-60@2x.png in Resources */,
 				36C6BEAB24D4109C00E5B7F6 /* DY14273.BIN in Resources */,
 				365E6C0324FA2B790067E737 /* ipad20pt@1x.png in Resources */,
@@ -1800,6 +1816,7 @@
 				3644AF5324F658970063D913 /* img_model1_btn.png in Resources */,
 				3E5815D51FB0061D00E93520 /* Back1@1x.png in Resources */,
 				36DDB0BF21D5FE0A006CEAFA /* Robot@2x.png in Resources */,
+				3658FEFC2530522B00815B94 /* DY10273.BIN in Resources */,
 				3644AF4C24F658970063D913 /* 机器人APP1+2(1)-3.png in Resources */,
 				3E43ACE11FAAB39C00924616 /* imformation@1x.png in Resources */,
 				3644AF4624F658970063D913 /* img_simple_Btn.png in Resources */,
@@ -1921,6 +1938,7 @@
 				3669CF4D21C9EF6100F54D53 /* APFinishViewController.m in Sources */,
 				36E9696324EA375500190201 /* OldFirmwareViewController.m in Sources */,
 				3644AF8F24F73DA40063D913 /* TwoSimpleModelViewController.m in Sources */,
+				3658FEE62530141E00815B94 /* MowerSetingVC_type4.m in Sources */,
 				3E6325271FA6BC5F00F14462 /* main.m in Sources */,
 				3EA4D62E1FC91435004D503D /* RDVViewController.m in Sources */,
 				36BD41D723CC680A00C9C451 /* WorkTimeSettingViewController.m in Sources */,

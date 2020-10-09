@@ -40,7 +40,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
-    
     if ([defaults integerForKey:@"deviceType"]) {
         [BluetoothDataManage shareInstance].deviceType = (int)[defaults integerForKey:@"deviceType"];
         switch ([BluetoothDataManage shareInstance].deviceType) {
@@ -59,6 +58,20 @@
                     dataName = @"DY02273";
                 }else{
                     dataName = @"DY12273";
+                }
+                break;
+            case 4:
+                if ([BluetoothDataManage shareInstance].sectionvalve ==0) {
+                    dataName = @"DY04273";
+                }else{
+                    dataName = @"DY14273";
+                }
+                break;
+            case 5:
+                if ([BluetoothDataManage shareInstance].sectionvalve ==0) {
+                    dataName = @"DY05273";
+                }else{
+                    dataName = @"DY15273";
                 }
                 break;
             default:
