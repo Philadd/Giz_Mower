@@ -249,7 +249,6 @@
 		3EF771AB1FAAA38A00EC016A /* up@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF771A61FAAA38A00EC016A /* up@1x.png */; };
 		3EFEF5061FADA83E00FA7850 /* 蓝牙@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFEF5041FADA83E00FA7850 /* 蓝牙@1x.png */; };
 		3EFEF5071FADA83E00FA7850 /* 蓝牙断开@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFEF5051FADA83E00FA7850 /* 蓝牙断开@1x.png */; };
-		7138A13FCD6C16E10F452F74 /* libPods-MOWOX.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B0FFC2AA47A8A70D5B1A5F1F /* libPods-MOWOX.a */; };
 		BB0A37AF2015944D00E5FD94 /* A2_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0A37AC2015944C00E5FD94 /* A2_50@2x.png */; };
 		BB0A37B02015944D00E5FD94 /* A1_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0A37AD2015944C00E5FD94 /* A1_50@2x.png */; };
 		BB0A37B12015944D00E5FD94 /* A3_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0A37AE2015944D00E5FD94 /* A3_50@2x.png */; };
@@ -306,10 +305,12 @@
 		BBC4AB802102D8C100F49BDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E6325331FA6BC5F00F14462 /* LaunchScreen.storyboard */; };
 		BBCCA45B2019B84C00423650 /* 80x80@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBCCA4592019B84C00423650 /* 80x80@2x.png */; };
 		BBFD38902079ACB500D02ACD /* UIViewController+BarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFD388F2079ACB500D02ACD /* UIViewController+BarButton.m */; };
+		F071E0C33828DA94FD27A1C6 /* libPods-Giz_Mower.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2AE496D7F13DBD5595CE6EED /* libPods-Giz_Mower.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F864A63560DCE59776D4952 /* Pods-MOWOX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOWOX.release.xcconfig"; path = "Pods/Target Support Files/Pods-MOWOX/Pods-MOWOX.release.xcconfig"; sourceTree = "<group>"; };
+		2AE496D7F13DBD5595CE6EED /* libPods-Giz_Mower.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Giz_Mower.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		36009B7E21F0260B00245D71 /* Welcome@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Welcome@2x.png"; path = "image/icon1/Welcome@2x.png"; sourceTree = SOURCE_ROOT; };
 		36009B8021F0261B00245D71 /* Welcome1_4.7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Welcome1_4.7@2x.png"; path = "image/icon1/Welcome1_4.7@2x.png"; sourceTree = SOURCE_ROOT; };
 		36009B8121F0261B00245D71 /* Welcome1_5.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Welcome1_5.5@2x.png"; path = "image/icon1/Welcome1_5.5@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -674,7 +675,8 @@
 		3EFEF5051FADA83E00FA7850 /* 蓝牙断开@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "蓝牙断开@1x.png"; path = "image/蓝牙断开@1x.png"; sourceTree = SOURCE_ROOT; };
 		41AF602D45B7AE4EE6CB78D8 /* Pods-MOWOX.provisioning profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOWOX.provisioning profile.xcconfig"; path = "Pods/Target Support Files/Pods-MOWOX/Pods-MOWOX.provisioning profile.xcconfig"; sourceTree = "<group>"; };
 		81D0F6572EC09A565F67D3F8 /* Pods-MOWOX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOWOX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MOWOX/Pods-MOWOX.debug.xcconfig"; sourceTree = "<group>"; };
-		B0FFC2AA47A8A70D5B1A5F1F /* libPods-MOWOX.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MOWOX.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DD7796202CC8C2B57E1D48D /* Pods-Giz_Mower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Giz_Mower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Giz_Mower/Pods-Giz_Mower.debug.xcconfig"; sourceTree = "<group>"; };
+		A2BC601C08829689A12A004A /* Pods-Giz_Mower.provisioning profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Giz_Mower.provisioning profile.xcconfig"; path = "Pods/Target Support Files/Pods-Giz_Mower/Pods-Giz_Mower.provisioning profile.xcconfig"; sourceTree = "<group>"; };
 		BB0A37AC2015944C00E5FD94 /* A2_50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "A2_50@2x.png"; path = "image/A2_50@2x.png"; sourceTree = SOURCE_ROOT; };
 		BB0A37AD2015944C00E5FD94 /* A1_50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "A1_50@2x.png"; path = "image/A1_50@2x.png"; sourceTree = SOURCE_ROOT; };
 		BB0A37AE2015944D00E5FD94 /* A3_50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "A3_50@2x.png"; path = "image/A3_50@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -766,6 +768,7 @@
 		BBCD5968215F55C600D87D31 /* MOWOX.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MOWOX.entitlements; sourceTree = "<group>"; };
 		BBFD388E2079ACB500D02ACD /* UIViewController+BarButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+BarButton.h"; sourceTree = "<group>"; };
 		BBFD388F2079ACB500D02ACD /* UIViewController+BarButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+BarButton.m"; sourceTree = "<group>"; };
+		D08651D40818D81A986A6732 /* Pods-Giz_Mower.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Giz_Mower.release.xcconfig"; path = "Pods/Target Support Files/Pods-Giz_Mower/Pods-Giz_Mower.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -783,10 +786,10 @@
 				3669CF5F21C9F06800F54D53 /* libWMOneShotConfig.a in Frameworks */,
 				36A197EB21CCC8870008901A /* ExternalAccessory.framework in Frameworks */,
 				3669CF5B21C9F06800F54D53 /* libBLEasyConfig.a in Frameworks */,
-				7138A13FCD6C16E10F452F74 /* libPods-MOWOX.a in Frameworks */,
 				3669CF5C21C9F06800F54D53 /* libLibSimpleConfig.a in Frameworks */,
 				3669CF6021C9F06800F54D53 /* libcrypto.a in Frameworks */,
 				3669CF6721C9F40C00F54D53 /* libEasyLink.a in Frameworks */,
+				F071E0C33828DA94FD27A1C6 /* libPods-Giz_Mower.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1276,6 +1279,9 @@
 				81D0F6572EC09A565F67D3F8 /* Pods-MOWOX.debug.xcconfig */,
 				1F864A63560DCE59776D4952 /* Pods-MOWOX.release.xcconfig */,
 				41AF602D45B7AE4EE6CB78D8 /* Pods-MOWOX.provisioning profile.xcconfig */,
+				9DD7796202CC8C2B57E1D48D /* Pods-Giz_Mower.debug.xcconfig */,
+				D08651D40818D81A986A6732 /* Pods-Giz_Mower.release.xcconfig */,
+				A2BC601C08829689A12A004A /* Pods-Giz_Mower.provisioning profile.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -1516,7 +1522,7 @@
 				3669CF5721C9F06800F54D53 /* libWMOneShotConfig.a */,
 				3669CF5121C9F05000F54D53 /* SystemConfiguration.framework */,
 				3EF13DC521AD6D4000A575AF /* ExternalAccessory.framework */,
-				B0FFC2AA47A8A70D5B1A5F1F /* libPods-MOWOX.a */,
+				2AE496D7F13DBD5595CE6EED /* libPods-Giz_Mower.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1836,20 +1842,18 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-MOWOX/Pods-MOWOX-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-Giz_Mower/Pods-Giz_Mower-resources.sh",
 				"${PODS_ROOT}/IQKeyboardManager/IQKeyBoardManager/Resources/IQKeyboardManager.bundle",
-				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MOWOX/Pods-MOWOX-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Giz_Mower/Pods-Giz_Mower-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		6708DE77E685E9E23269684D /* [CP] Check Pods Manifest.lock */ = {
@@ -1863,7 +1867,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MOWOX-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-Giz_Mower-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -2159,7 +2163,7 @@
 		};
 		3E63253A1FA6BC5F00F14462 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 81D0F6572EC09A565F67D3F8 /* Pods-MOWOX.debug.xcconfig */;
+			baseConfigurationReference = 9DD7796202CC8C2B57E1D48D /* Pods-Giz_Mower.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -2226,7 +2230,7 @@
 		};
 		3E63253B1FA6BC5F00F14462 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1F864A63560DCE59776D4952 /* Pods-MOWOX.release.xcconfig */;
+			baseConfigurationReference = D08651D40818D81A986A6732 /* Pods-Giz_Mower.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -2349,7 +2353,7 @@
 		};
 		3EB84CF91FC449250024AE03 /* Provisioning Profile */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41AF602D45B7AE4EE6CB78D8 /* Pods-MOWOX.provisioning profile.xcconfig */;
+			baseConfigurationReference = A2BC601C08829689A12A004A /* Pods-Giz_Mower.provisioning profile.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
