@@ -445,6 +445,7 @@ static BluetoothDataManage *sgetonInstanceData = nil;
             NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
             [defaults setObject:deviceTypeA forKey:@"deviceType"];
             [defaults synchronize];
+            [[NSNotificationCenter defaultCenter] postNotificationName:@"getDeviceType" object:nil userInfo:nil];
         }else if (self.frameType == getAlerts){
             NSLog(@"接收到getAlerts");
             NSMutableDictionary *dataDic = [[NSMutableDictionary alloc] init];
