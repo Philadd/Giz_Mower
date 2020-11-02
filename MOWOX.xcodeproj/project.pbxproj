@@ -249,6 +249,7 @@
 		3EF771AB1FAAA38A00EC016A /* up@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EF771A61FAAA38A00EC016A /* up@1x.png */; };
 		3EFEF5061FADA83E00FA7850 /* 蓝牙@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFEF5041FADA83E00FA7850 /* 蓝牙@1x.png */; };
 		3EFEF5071FADA83E00FA7850 /* 蓝牙断开@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EFEF5051FADA83E00FA7850 /* 蓝牙断开@1x.png */; };
+		BB01A121254FE2FC00BC5340 /* DM10401.BIN in Resources */ = {isa = PBXBuildFile; fileRef = BB01A120254FE2FC00BC5340 /* DM10401.BIN */; };
 		BB0A37AF2015944D00E5FD94 /* A2_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0A37AC2015944C00E5FD94 /* A2_50@2x.png */; };
 		BB0A37B02015944D00E5FD94 /* A1_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0A37AD2015944C00E5FD94 /* A1_50@2x.png */; };
 		BB0A37B12015944D00E5FD94 /* A3_50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB0A37AE2015944D00E5FD94 /* A3_50@2x.png */; };
@@ -677,6 +678,7 @@
 		81D0F6572EC09A565F67D3F8 /* Pods-MOWOX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MOWOX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MOWOX/Pods-MOWOX.debug.xcconfig"; sourceTree = "<group>"; };
 		9DD7796202CC8C2B57E1D48D /* Pods-Giz_Mower.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Giz_Mower.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Giz_Mower/Pods-Giz_Mower.debug.xcconfig"; sourceTree = "<group>"; };
 		A2BC601C08829689A12A004A /* Pods-Giz_Mower.provisioning profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Giz_Mower.provisioning profile.xcconfig"; path = "Pods/Target Support Files/Pods-Giz_Mower/Pods-Giz_Mower.provisioning profile.xcconfig"; sourceTree = "<group>"; };
+		BB01A120254FE2FC00BC5340 /* DM10401.BIN */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = DM10401.BIN; sourceTree = "<group>"; };
 		BB0A37AC2015944C00E5FD94 /* A2_50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "A2_50@2x.png"; path = "image/A2_50@2x.png"; sourceTree = SOURCE_ROOT; };
 		BB0A37AD2015944C00E5FD94 /* A1_50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "A1_50@2x.png"; path = "image/A1_50@2x.png"; sourceTree = SOURCE_ROOT; };
 		BB0A37AE2015944D00E5FD94 /* A3_50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "A3_50@2x.png"; path = "image/A3_50@2x.png"; sourceTree = SOURCE_ROOT; };
@@ -923,6 +925,7 @@
 		3E0F567E1FF23F9400A4D339 /* bin */ = {
 			isa = PBXGroup;
 			children = (
+				BB01A120254FE2FC00BC5340 /* DM10401.BIN */,
 				3658FEF82530522B00815B94 /* DY05273.BIN */,
 				3658FEF92530522B00815B94 /* DY10273.BIN */,
 				3658FEFA2530522B00815B94 /* DY15273.BIN */,
@@ -1639,6 +1642,7 @@
 				3644AF5524F658970063D913 /* img_LCDmodel2_btn.png in Resources */,
 				3644AF7324F67F930063D913 /* img_model1_help_up.png in Resources */,
 				36F0FCF82456C599006B1ABA /* ipad29pt@1x.png in Resources */,
+				BB01A121254FE2FC00BC5340 /* DM10401.BIN in Resources */,
 				3E11A3881FD90AAD000CAA08 /* 40@2x.png in Resources */,
 				3E2F25351FB949C200E79C23 /* findBluetooth@2x.png in Resources */,
 				3664F7BB24F8E65B0098B249 /* DM00401.BIN in Resources */,
