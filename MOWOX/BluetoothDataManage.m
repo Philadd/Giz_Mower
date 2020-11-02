@@ -13,7 +13,7 @@
 #define QD_BLE_SEND_MAX_LEN 20
 
 ///@brife 可判断的数据帧类型数量
-#define LEN 13
+#define LEN 14
 ///@brife 2的24次方
 static const long int data24 = 16777216;
 ///@brife 2的16次方
